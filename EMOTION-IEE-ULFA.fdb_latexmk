@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732766195.78392 "y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/artikel kk ulfa/EMOTION-IEE-ULFA.tex" "EMOTION-IEE-ULFA.pdf" "EMOTION-IEE-ULFA" 1732766196.89831 0
-  "EMOTION-IEE-ULFA.aux" 1732766196.77789 1945 dfd6527e96f74fbc68a713a509e44610 "pdflatex"
+["pdflatex"] 1732827332.85746 "y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex" "EMOTION-IEE-ULFA.pdf" "EMOTION-IEE-ULFA" 1732827334.8287 0
+  "EMOTION-IEE-ULFA.aux" 1732827334.64336 2471 9f78ed2b67d0c99951e0ef8d740de7a9 "pdflatex"
   "IEEEtran.cls" 1727855250 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1721915613.25932 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1721916269.33563 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -23,12 +23,14 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1721913487.01474 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1721914695.39688 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1721914695.40091 1528 abec98dbc43e172678c11b3b9031252a ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1721914695.40293 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1721914695.40494 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1721914695.406 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1721914695.40835 1300 b62933e007d01cfd073f79b963c01526 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1721914695.40935 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1721914695.42184 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1721914695.42285 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1721914695.42386 1120 8b7d695260f3cff42e636090a8002094 ""
-  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1721913487.06457 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb" 1721921588.72403 44729 811d6c62865936705a31c797a1d5dada ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb" 1721921588.72403 44656 0cbca70e0534538582128f6b54593cca ""
   "c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1721921588.72503 46026 6dab18b61c907687b520c72847215a68 ""
@@ -74,7 +76,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721922819 5529061 9a6ab8710a47d10c73b90fff7cbadbd8 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721923103 8239251 fe0bc99214684c7aef7d3d01222aff50 ""
   "c:/texlive/2024/texmf.cnf" 1721922793.93874 713 baa45e065482d44c4cd81b98ef72c63b ""
-  "y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/artikel kk ulfa/EMOTION-IEE-ULFA.tex" 1732766192.71774 10290 ba6161356a074af527f81d8b14501b06 ""
+  "images/web-welcome.png" 1732824663.08087 734138 4fc5b932d7e475576c993c4badbf44b0 ""
+  "images/welcome.jpg" 1732813887.81572 50664 d29078a36afcc9984cb5b284c56a8e42 ""
+  "y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex" 1732827331.09647 25059 46c687d4f37f9d1ca2e039ba58257a99 ""
   (generated)
   "EMOTION-IEE-ULFA.aux"
   "EMOTION-IEE-ULFA.log"

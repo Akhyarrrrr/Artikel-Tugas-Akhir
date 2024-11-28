@@ -1,8 +1,8 @@
-PWD Y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/artikel kk ulfa
+PWD Y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/artikel kk ulfa/EMOTION-IEE-ULFA.tex
+INPUT y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex
 OUTPUT EMOTION-IEE-ULFA.log
 INPUT ./IEEEtran.cls
 INPUT IEEEtran.cls
@@ -141,14 +141,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 OUTPUT EMOTION-IEE-ULFA.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
@@ -168,11 +160,33 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
+INPUT ./images/web-welcome.png
+INPUT ./images/web-welcome.png
+INPUT ./images/web-welcome.png
+INPUT ./images/web-welcome.png
+INPUT ./images/welcome.jpg
+INPUT ./images/welcome.jpg
+INPUT ./images/welcome.jpg
+INPUT ./images/welcome.jpg
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT EMOTION-IEE-ULFA.aux
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
