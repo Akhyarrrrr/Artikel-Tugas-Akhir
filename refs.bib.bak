@@ -1,0 +1,456 @@
+% Encoding: UTF-8
+
+
+@Conference{barker2015,
+  Title                    = {The third {CHiME} Speech Separation and Recognition Challenge: dataset, task and baselines},
+  Author                   = {Barker, J. and Marxer, R. and Vincent, E. and Watanabe, S.},
+  Booktitle                = {Proc. of ASRU},
+  Year                     = {2015},
+
+  File                     = {[2012][Pascanu] On the difficulty of training recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\FX9R4INX\\[2012][Pascanu] On the difficulty of training recurrent neural networks.pdf:application/pdf},
+  Journal                  = {Proceeding of {IEEE} {Workshop} on Automatic {Speech} {Recognition} and {Understanding} ({ASRU})},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.12},
+  Url                      = {http://arxiv.org/abs/1211.5063},
+  Urldate                  = {2015-06-12}
+}
+
+@Article{bengio2009,
+  Title                    = {Learning Deep Architectures for {AI}},
+  Author                   = {Bengio, Y.},
+  Journal                  = {Found. Trends Mach. Learn.},
+  Year                     = {2009},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {1--127},
+  Volume                   = {2},
+
+  Acmid                    = {1658424},
+  Address                  = {Hanover, MA, USA},
+  Doi                      = {10.1561/2200000006},
+  ISSN                     = {1935-8237},
+  Issue_date               = {January 2009},
+  Numpages                 = {127},
+  Owner                    = {Alim Misbullah},
+  Publisher                = {Now Publishers Inc.},
+  Timestamp                = {2015.07.06},
+  Url                      = {http://dx.doi.org/10.1561/2200000006}
+}
+
+@Conference{brnnlm,
+  Title                    = {Bayesian recurrent neural network language model},
+  Author                   = {J.-T. Chien and Y.-C. Ku},
+  Booktitle                = {Proc. of SLT},
+  Year                     = {2014},
+  Pages                    = {206-211},
+
+  Owner                    = {JTC},
+  Timestamp                = {2015.06.20}
+}
+
+@Conference{drrnn,
+  Title                    = {Deep recurrent regularization neural network for speech recognition},
+  Author                   = {J.-T. Chien and T.-W. Lu},
+  Booktitle                = {Proc. of {ICASSP}},
+  Year                     = {2015},
+  Pages                    = {4560-4564},
+
+  Owner                    = {JTC},
+  Timestamp                = {2015.06.20}
+}
+
+@Conference{tikdnn,
+  Title                    = {Tikhonov regularization for deep neural network acoustic modeling},
+  Author                   = {J.-T. Chien and T.-W. Lu},
+  Booktitle                = {Proc. of SLT},
+  Year                     = {2014},
+  Pages                    = {147-152},
+
+  Owner                    = {JTC},
+  Timestamp                = {2015.06.20}
+}
+
+@Article{dahl2012,
+  Title                    = {Context-{dependent} {pre}-{trained} {deep} {neural} {networks} for {large}-{vocabulary} {speech} {recognition}},
+  Author                   = {Dahl, G. E. and Yu, D. and Deng, L. and Acero, A.},
+  Journal                  = {IEEE Transactions on Audio, Speech, and Language Processing},
+  Year                     = {2012},
+
+  Month                    = jan,
+  Number                   = {1},
+  Pages                    = {30-42},
+  Volume                   = {20},
+
+  Doi                      = {10.1109/TASL.2011.2134090},
+  File                     = {[2012][Dahl] Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\P3JTXW4X\\[2012][Dahl] Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition.pdf:application/pdf},
+  ISSN                     = {1558-7916, 1558-7924},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5740583},
+  Urldate                  = {2015-05-28}
+}
+
+@Conference{geiger2014,
+  Title                    = {Robust speech recognition using long short-term memory recurrent neural networks for hybrid acoustic modelling},
+  Author                   = {Geiger, J. T. and Zhang, Z. and Weninger, F. and Schuller, B. and Rigoll, G.},
+  Booktitle                = {Proc. of INTERSPEECH},
+  Year                     = {2014},
+  Pages                    = {631-635},
+
+  File                     = {[INTERSPEECH2014][J. T. Geiger]Robust Speech Recognition using Long Short-Term Memory Recurrent Neural Networks for Hybrid Acoustic Modelling.PDF:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\IZH99DEX\\[INTERSPEECH2014][J. T. Geiger]Robust Speech Recognition using Long Short-Term Memory Recurrent Neural Networks for Hybrid Acoustic Modellin.PDF:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://mazsola.iit.uni-miskolc.hu/~czap/letoltes/IS14/IS2014/PDF/AUTHOR/IS140601.PDF},
+  Urldate                  = {2015-05-27}
+}
+
+@InProceedings{glorot2010,
+  Title                    = {Understanding the difficulty of training deep feedforward neural networks},
+  Author                   = {Glorot, X. and Bengio, Y.},
+  Booktitle                = {Proc. of AISTATS},
+  Year                     = {2010},
+  Pages                    = {249--256},
+
+  File                     = {:C\:\\Users\\Alim Misbullah\\Google Drive\\MLLAB-public\\馬俊力 (Alim)\\Papers\\DNN\\[AISTATS2010][Glorot] Understanding the difficulty of training deep feedforward neural networks.pdf:PDF},
+  Journal                  = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.29},
+  Url                      = {http://machinelearning.wustl.edu/mlpapers/paper_files/AISTATS2010_GlorotB10.pdf},
+  Urldate                  = {2015-06-29}
+}
+
+@Article{graves2013a,
+  Title                    = {Generating sequences with recurrent neural networks},
+  Author                   = {Graves, A.},
+  Journal                  = {arXiv preprint arXiv:1308.0850},
+  Year                     = {2013},
+
+  File                     = {[2013][Graves] Generating sequences with recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\JF22RS5F\\[2013][Graves] Generating sequences with recurrent neural networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://arxiv.org/abs/1308.0850},
+  Urldate                  = {2015-05-27}
+}
+
+@Conference{graves2013c,
+  Title                    = {Speech recognition with deep recurrent neural networks},
+  Author                   = {Graves, A. and Mohamed, A.-R. and Hinton, G.},
+  Booktitle                = {Proc. of ICASSP},
+  Year                     = {2013},
+  Pages                    = {6645--6649},
+  Publisher                = {IEEE},
+
+  File                     = {[ARXIV2013][Alex Graves] Speech Recognition with Deep Recurrent Neural Networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\INWXHD22\\[ARXIV2013][Alex Graves] Speech Recognition with Deep Recurrent Neural Networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6638947},
+  Urldate                  = {2015-05-27}
+}
+
+@Conference{graves2009,
+  Title                    = {Offline handwriting recognition with multidimensional recurrent neural networks},
+  Author                   = {Graves, A. and Schmidhuber, J.},
+  Booktitle                = {NIPS},
+  Year                     = {2009},
+  Pages                    = {545--552},
+
+  File                     = {[2009][Graves] Offline handwriting recognition with multidimensional recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\XEAFDSUR\\[2009][Graves] Offline handwriting recognition with multidimensional recurrent neural networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.15},
+  Url                      = {http://papers.nips.cc/paper/3449-offline-handwriting-recognition-with-multidimensional-recurrent-neural-networks},
+  Urldate                  = {2015-06-15}
+}
+
+@Article{hinton2012,
+  Title                    = {Deep {neural} {networks} for {acoustic} {modeling} in {speech} {recognition}: {the} {shared} {views} of {four} {research} {groups}},
+  Author                   = {Hinton, G. and Deng, L. and Yu, D. and Dahl, G. and Mohamed, A. and Jaitly, N. and Senior, A. and Vanhoucke, V. and Nguyen, P. and Sainath, T. and Kingsbury, B.},
+  Journal                  = {IEEE Signal Processing Magazine},
+  Year                     = {2012},
+
+  Month                    = nov,
+  Number                   = {6},
+  Pages                    = {82-97},
+  Volume                   = {29},
+
+  Doi                      = {10.1109/MSP.2012.2205597},
+  File                     = {[2012][Hinton] Deep Neural Networks for Acoustic Modeling in Speech Recognition.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\WEC58VJ7\\[2012][Hinton] Deep Neural Networks for Acoustic Modeling in Speech Recognition.pdf:application/pdf},
+  ISSN                     = {1053-5888},
+  Owner                    = {Alim Misbullah},
+  Shorttitle               = {Deep {Neural} {Networks} for {Acoustic} {Modeling} in {Speech} {Recognition}},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6296526},
+  Urldate                  = {2015-05-28}
+}
+
+@Article{hochreiter1997,
+  Title                    = {Long Short-Term Memory},
+  Author                   = {Hochreiter, S. and Schmidhuber, J.},
+  Journal                  = {Neural Computation},
+  Year                     = {1997},
+
+  Month                    = nov,
+  Number                   = {8},
+  Pages                    = {1735-1780},
+  Volume                   = {9},
+
+  Acmid                    = {1246450},
+  Address                  = {Cambridge, MA, USA},
+  File                     = {Hochreiter1997:C\:\\Users\\Alim Misbullah\\Google Drive\\Thesis\\Final Report Thesis\\104(馬軍力)Alim\\[1]thesis\\References\\LSTM-RNN\\[1997][Schmidhuber]Long Short-Term Memory.pdf:PDF},
+  ISSN                     = {0899-7667},
+  Issue_date               = {November 15, 1997},
+  Numpages                 = {46},
+  Owner                    = {Alim Misbullah},
+  Publisher                = {MIT Press},
+  Timestamp                = {2015.06.14},
+  Unknown                  = {2015.04.02}
+}
+
+@Article{li2014a,
+  Title                    = {Constructing {long} {short}-{term} {memory} based {deep} {recurrent} {neural} {networks} for {large} {vocabulary} {speech} {recognition}},
+  Author                   = {Li, X. and Wu, X.},
+  Journal                  = {arXiv preprint arXiv:1410.4281},
+  Year                     = {2014},
+
+  File                     = {[ICASSP2015][Li]CONSTRUCTING LONG SHORT-TERM MEMORY BASED DEEP RECURRENT NEURAL NETWORKS FOR LARGE VOCABULARY SPEECH RECOGNITION.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\2VZ8DFJ8\\[ICASSP2015][Li]CONSTRUCTING LONG SHORT-TERM MEMORY BASED DEEP RECURRENT NEURAL NETWORKS FOR LARGE VOCABULARY SPEECH RECOGNITION.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://arxiv.org/abs/1410.4281},
+  Urldate                  = {2015-05-27}
+}
+
+@Conference{martens2011,
+  Title                    = {Learning recurrent neural networks with {H}essian-free optimization},
+  Author                   = {Martens, J. and Sutskever, I.},
+  Booktitle                = {Proc. of {ICML}},
+  Year                     = {2011},
+  Pages                    = {1033-1040},
+
+  File                     = {[2011][Martens] Learning recurrent neural networks with hessian-free optimization.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\IZV8CVJE\\[2011][Martens] Learning recurrent neural networks with hessian-free optimization.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.15},
+  Url                      = {http://machinelearning.wustl.edu/mlpapers/paper_files/ICML2011Martens_532.pdf},
+  Urldate                  = {2015-06-15}
+}
+
+@Conference{mikolov2010,
+  Title                    = {Recurrent neural network based language model},
+  Author                   = {Mikolov, T. and Karafiat, M. and Burget, L. and Cernocky, J. and Khudanpur, S.},
+  Booktitle                = {Proc. of {INTERSPEECH}},
+  Year                     = {2010},
+  Pages                    = {1045-1048},
+
+  File                     = {:C\:\\Users\\Alim Misbullah\\Google Drive\\MLLAB-public\\馬俊力 (Alim)\\Papers\\LSTM-RNN\\RNN\\[Interspeech 2010][Mikolov]Recurrent neural network based language model.pdf:PDF},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.16}
+}
+
+@Article{mohamed2012,
+  Title                    = {Acoustic {modeling} {using} {deep} {belief} {networks}},
+  Author                   = {Mohamed, A. and Dahl, G. E. and Hinton, G.},
+  Journal                  = {IEEE Transactions on Audio, Speech, and Language Processing},
+  Year                     = {2012},
+
+  Month                    = {Jan.},
+  Number                   = {1},
+  Pages                    = {14--22},
+  Volume                   = {20},
+
+  Doi                      = {10.1109/TASL.2011.2109382},
+  File                     = {[2012][Mohamed] Acoustic Modeling Using Deep Belief Networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\F25GIPRT\\[2012][Mohamed] Acoustic Modeling Using Deep Belief Networks.pdf:application/pdf},
+  ISSN                     = {1558-7916, 1558-7924},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5704567},
+  Urldate                  = {2015-05-28}
+}
+
+@Article{pascanu2013,
+  Title                    = {How to construct deep recurrent neural networks},
+  Author                   = {Pascanu, R. and Gulcehre, C. and Cho, K. and Bengio, Y.},
+  Journal                  = {arXiv preprint arXiv:1312.6026},
+  Year                     = {2013},
+
+  File                     = {[2013][Pascanu] How to construct deep recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\AFT2S7MH\\[2013][Pascanu] How to construct deep recurrent neural networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.15},
+  Url                      = {http://arxiv.org/abs/1312.6026},
+  Urldate                  = {2015-06-15}
+}
+
+@Article{pascanu2012,
+  Title                    = {On the difficulty of training recurrent neural networks},
+  Author                   = {Pascanu, R. and Mikolov, T. and Bengio, Y.},
+  Journal                  = {arXiv preprint arXiv:1211.5063},
+  Year                     = {2012},
+
+  File                     = {[2012][Pascanu] On the difficulty of training recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\FX9R4INX\\[2012][Pascanu] On the difficulty of training recurrent neural networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.12},
+  Url                      = {http://arxiv.org/abs/1211.5063},
+  Urldate                  = {2015-06-12}
+}
+
+@Conference{povey2011,
+  Title                    = {The {Kaldi} Speech Recognition Toolkit},
+  Author                   = {Povey, D. and Ghoshal, A. and Boulianne, G. and Burget, L. and Glembek, O. and Goel, N. and Hannemann, M. and Motlicek, P. and Qian, Y. and Schwarz, P. and Silovsky, J. and Stemmer, G. and Vesely, K.},
+  Booktitle                = {Proc. of ASRU},
+  Year                     = {2011},
+
+  Location                 = {Hilton Waikoloa Village, Big Island, Hawaii, US},
+  Owner                    = {JTC},
+  Timestamp                = {2015.06.18}
+}
+
+@Conference{sainath2015,
+  Title                    = {Convolutional, long short-term memory, fully connected deep neural networks},
+  Author                   = {T. N. Sainath and O. Vinyals and A. Senior and H. Sak},
+  Booktitle                = {Proc. of {ICASSP}},
+  Year                     = {2015},
+  Pages                    = {4580-4584},
+
+  Owner                    = {JTC},
+  Timestamp                = {2015.06.19}
+}
+
+@Conference{sak2014b,
+  Title                    = {{Long short-term memory recurrent neural network architectures for large scale acoustic modeling}},
+  Author                   = {Sak, H. and Senior, A. and Beaufays, F.},
+  Booktitle                = {Proc. of {INTERSPEECH}},
+  Year                     = {2014},
+  Pages                    = {338-342},
+
+  File                     = {sak2014:C\:\\Users\\Alim Misbullah\\Google Drive\\Thesis\\Final Report Thesis\\104(馬俊力)Alim\\[1]thesis\\References\\LSTM-RNN\\[INTERSPEECH2014][Has¸im Sak]Long Short-Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling_READ.PDF:PDF},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.03}
+}
+
+@Conference{seide2011,
+  Title                    = {Conversational speech transcription using context-dependent deep neural networks},
+  Author                   = {Seide, F. and Li, G. and Yu, D.},
+  Booktitle                = {Proc. of {INTERSPEECH}},
+  Year                     = {2011},
+  Pages                    = {437-440},
+
+  File                     = {Seide2011:C\:\\Users\\Alim Misbullah\\Google Drive\\Thesis\\Final Report Thesis\\104(馬俊力)Alim\\[1]thesis\\References\\DNN\\[2011][Seide] Conversational Speech Transcription Using Context-Dependent Deep Neural Networks.pdf:PDF},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.15}
+}
+
+@Conference{sundermeyer2014,
+  Title                    = {Translation modeling with bidirectional recurrent neural networks},
+  Author                   = {Sundermeyer, M. and Alkhouli, T. and Wuebker, J. and Ney, H.},
+  Booktitle                = {Proc. of EMNLP},
+  Year                     = {2014},
+
+  File                     = {[2014][Sundermeyer] Translation modeling with bidirectional recurrent neural networks.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\UU3TAZC8\\[2014][Sundermeyer] Translation modeling with bidirectional recurrent neural networks.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.06.15},
+  Url                      = {http://www.eu-bridge.eu/downloads/Translation_Modeling_with_Bidirectional_Recurrent_Neural_Networks_EU-Bridge.pdf},
+  Urldate                  = {2015-06-15}
+}
+
+@InProceedings{vesely2013,
+  Title                    = {Sequence-discriminative training of deep neural networks.},
+  Author                   = {Vesely, K. and Ghoshal, A. and Burget, L. and Povey, D.},
+  Booktitle                = {Proc. of {INTERSPEECH}},
+  Year                     = {2013},
+  Pages                    = {2345--2349},
+
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.07.08},
+  Url                      = {http://www.fit.vutbr.cz/research/groups/speech/publi/2013/vesely_interspeech2013_IS131333.pdf},
+  Urldate                  = {2015-07-08}
+}
+
+@Conference{weng2014,
+  Title                    = {Recurrent deep neural networks for robust speech recognition},
+  Author                   = {Weng, C. and Yu, D. and Watanabe, S. and Juang, B.-H.},
+  Booktitle                = {Proc. of {ICASSP}},
+  Year                     = {2014},
+  Pages                    = {5532-5536},
+
+  File                     = {[ICASSP 2014][Weng] Recurrent deep neural networks for robust speech recognition.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\PHDENU8Q\\[ICASSP 2014][Weng] Recurrent deep neural networks for robust speech recognition.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6854661},
+  Urldate                  = {2015-05-27}
+}
+
+@Article{williams1990,
+  Title                    = {An efficient gradient-based algorithm for on-line training of recurrent network trajectories},
+  Author                   = {Williams, R. J. and Peng, J.},
+  Journal                  = {Neural computation},
+  Year                     = {1990},
+  Number                   = {4},
+  Pages                    = {490-501},
+  Volume                   = {2},
+
+  File                     = {[1990][Williams] An efficient gradient-based algorithm for on-line training of recurrent network trajectories.pdf:C\:\\Users\\Alim Misbullah\\AppData\\Roaming\\Mozilla\\Firefox\\Profiles\\bz3unen5.default\\zotero\\storage\\XM2PHBNB\\[1990][Williams] An efficient gradient-based algorithm for on-line training of recurrent network trajectories.pdf:application/pdf},
+  Owner                    = {Alim Misbullah},
+  Timestamp                = {2015.05.29},
+  Url                      = {http://www.mitpressjournals.org/doi/abs/10.1162/neco.1990.2.4.490},
+  Urldate                  = {2015-05-27}
+}
+
+@Article{weide2005carnegie,
+  author  = {Weide, R.},
+  title   = {The Carnegie mellon pronouncing dictionary [cmudict. 0.6]},
+  journal = {Pittsburgh, PA: Carnegie Mellon University},
+  year    = {2005},
+}
+
+@TechReport{naomi2018,
+  author      = {Van der Velde, N.},
+  title       = {Innovative uses of speech recognition today’},
+  institution = {Globalme Language and Technology},
+  year        = {2018},
+}
+
+@TechReport{small2018,
+  author      = {Small, C. and Nirgin, D. and Churchwell, K. and Brownstein, J.},
+  title       = {What will healthcare look like once smart speakers are everywhere?},
+  institution = {Harvard Business Review},
+  year        = {2018},
+}
+
+@Article{james2004,
+  author  = {Neil Sneddon, J.},
+  title   = {The Indonesian Language: Its History and Role in Modern Society},
+  journal = {UNSW Press},
+  year    = {2004},
+}
+
+@InProceedings{povey2016purely,
+  author    = {Povey, Daniel and Peddinti, Vijayaditya and Galvez, Daniel and Ghahremani, Pegah and Manohar, Vimal and Na, Xingyu and Wang, Yiming and Khudanpur, Sanjeev},
+  title     = {Purely sequence-trained neural networks for ASR based on lattice-free MMI.},
+  booktitle = {Interspeech},
+  year      = {2016},
+  pages     = {2751--2755},
+}
+
+@InProceedings{uliansyah2017,
+  author = {Uliniansyah, Mohammad and Hammam, Riza and Santosa, Agung and Gunarso, Gunarso and Gunawan, Made and Nurfadhilah, Elvira},
+  title  = {Development of text and speech corpus for an Indonesian speech-to-speech translation system},
+  year   = {2017},
+  pages  = {1-5},
+  month  = {11},
+  doi    = {10.1109/ICSDA.2017.8384448},
+}
+
+@InProceedings{stolcke2002srilm,
+  author    = {Stolcke, Andreas},
+  title     = {SRILM-an extensible language modeling toolkit},
+  booktitle = {Seventh international conference on spoken language processing},
+  year      = {2002},
+}
+
+@InProceedings{povey2018semi,
+  author    = {Povey, Daniel and Cheng, Gaofeng and Wang, Yiming and Li, Ke and Xu, Hainan and Yarmohammadi, Mahsa and Khudanpur, Sanjeev},
+  title     = {Semi-Orthogonal Low-Rank Matrix Factorization for Deep Neural Networks.},
+  booktitle = {Interspeech},
+  year      = {2018},
+  pages     = {3743--3747},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

@@ -1,0 +1,235 @@
+\documentclass[conference,a4paper]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage[left=1.57cm,right=1.57cm,top=0.95cm,bottom=2.54cm]{geometry}
+\newpage % Mulai halaman kedua
+% \usepackage{caption}
+
+% \captionsetup[figure]{justification=raggedright, singlelinecheck=off}
+
+% Mengubah margin pada halaman kedua
+\newgeometry{left=1.57cm,right=1.57cm,top=1.9cm,bottom=2.54cm}
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{balance}
+\usepackage{multirow}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{
+  Development of RWikiStat 4.0 for Modern Statistical Learning
+  \\
+  \thanks{*Corresponding Author}
+}
+
+\makeatletter
+\newcommand{\linebreakand}{
+  \end{@IEEEauthorhalign}
+  \hfill\mbox{}\par
+  \mbox{}\hfill\begin{@IEEEauthorhalign}
+}
+\makeatother
+
+\author{
+  \IEEEauthorblockN{Hizir Sofyan}
+  \IEEEauthorblockA{\textit{Statistics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    hizir@usk.ac.id}
+  \and
+  \IEEEauthorblockN{Munawar}
+  \IEEEauthorblockA{\textit{Statistics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111 \\
+    munawar@mhs.usk.ac.id}
+  \and
+  \IEEEauthorblockN{Muhammad Subianto}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    subianto@usk.ac.id}
+  \and
+  \IEEEauthorblockN{Kurnia Saputra\textsuperscript{*}}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    kurnia.saputra@usk.ac.id}
+  \and
+  \linebreakand
+  \IEEEauthorblockN{Naufal Mas Adha}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    naufal@mhs.usk.ac.id}
+  \and
+  \IEEEauthorblockN{Affan Ian Amara}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    affan@mhs.usk.ac.id}
+  \and
+  \IEEEauthorblockN{Muhammad Nurifai}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    nurifai@mhs.usk.ac.id}
+  \and
+  \IEEEauthorblockN{AkhULFA}
+  \IEEEauthorblockA{\textit{Informatics Department} \\
+    \textit{Universitas Syiah Kuala}\\
+    Banda Aceh, Indonesia 23111\\
+    akhULFA1@mhs.usk.ac.id}
+}
+
+\maketitle
+
+\begin{abstract}
+  RWikiStat 4.0 is a cross-platform application designed to modernize statistical
+  learning by integrating cutting-edge technologies such as artificial
+  intelligence, cloud computing, and offline support. The application supports
+  web, Android, and iOS platforms, enabling seamless accessibility for users
+  across devices. This paper details the architecture, features, and
+  implementation of RWikiStat 4.0, highlighting its advancements over previous
+  versions. Testing results demonstrate significant improvements in usability,
+  performance, and security, making it a robust tool for modern statistical
+  education.
+\end{abstract}
+
+\begin{IEEEkeywords}
+  RWikiStat, Statistical Learning, Mobile Applications, Web-Based Education
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{sect:introduction}
+
+Rwikistat has been a pioneer in digital-based statistical learning since its
+inception. The first version in 2010 utilized a combination of \textit{Rweb}
+and \textit{MediaWiki} to provide an interactive statistics learning platform
+accessible via intranet and internet \cite{b1}. Rwikistat 2.0, introduced in
+2012, enhanced this approach by offering a \textit{Live CD/DVD} solution,
+enabling operations without additional installation, thereby increasing its
+flexibility \cite{b2}. Most recently, Rwikistat 3.0, launched in 2018, brought
+statistical learning into the \textit{mobile} domain with an Android-based
+platform, catering to the needs of modern users who prioritize portability and
+convenience \cite{b3}.
+
+While each version of Rwikistat has made significant innovations, challenges
+remain:
+\begin{itemize}
+  \item \textbf{Dependency on Rweb}: The discontinuation of Rweb has necessitated an urgent shift to a more stable alternative \cite{b2,b3}.
+  \item \textbf{Limited user interface}: Users have reported that the command line in Rwikistat 3.0 still requires improvements for better intuitiveness \cite{b3}.
+  \item \textbf{Focus on local environments}: Many features rely on local installations or specific devices, limiting widespread adoption in modern cloud-based scenarios \cite{b2}.
+\end{itemize}
+
+To address these challenges, \textbf{Rwikistat 4.0} has been designed as an
+integrated statistical learning platform that is cloud-based and more
+responsive to user needs.
+
+\subsection*{Solutions in Rwikistat 4.0}
+\begin{itemize}
+  \item \textbf{Cloud-Based Architecture}: Rwikistat 4.0 eliminates dependency on Rweb by leveraging a \textit{Docker}-based R server, enabling direct execution of R syntax via REST APIs, supporting scalability for various devices.
+  \item \textbf{Enhanced User Interface}: The interface has been redesigned using \textit{React Native}, providing a smoother and more responsive experience on both web and mobile applications. Drag-and-drop functionality for data visualization empowers users without programming experience to interact directly with statistical tools.
+  \item \textbf{Cloud-Based Collaboration and Storage}: Integration with services like Google Drive and Dropbox enables users to save and share analysis results directly, facilitating modern collaborative learning needs.
+  \item \textbf{AI-Powered Statistical Learning Modules}: Rwikistat 4.0 includes artificial intelligence modules to provide automatic recommendations for relevant statistical methods based on user input data, transforming it from a passive tool to an active learning companion.
+  \item \textbf{Cross-Device Accessibility}: The platform is fully cross-platform, ensuring seamless access on Windows, macOS, Android, and iOS devices.
+\end{itemize}
+
+Through these innovations, \textbf{Rwikistat 4.0} not only continues its
+tradition as an adaptive statistics learning tool but also sets a new standard
+for interactivity and accessibility in technology-driven education. This
+platform is poised to advance statistical education, addressing future
+challenges with relevant and innovative solutions.
+
+\section{System Design}
+\label{sect:system_design}
+
+The design of RWikiStat 4.0 focuses on flexibility and scalability to support
+multiplatform usage. Its architecture consists of the following components:
+
+\subsection{Frontend}
+\begin{itemize}
+  \item \textbf{Web Application:} Developed using Next.js, it ensures fast rendering and optimal performance.
+  \item \textbf{Mobile Applications:} Built on React Native, the app provides a unified codebase for Android and iOS.
+\end{itemize}
+
+\subsection{Backend}
+\begin{itemize}
+  \item \textbf{API Layer:} Powered by Express.js, it facilitates robust RESTful services.
+  \item \textbf{Database:} MongoDB serves as the primary database, offering flexibility and scalability for diverse datasets.
+\end{itemize}
+
+\subsection{Key Features}
+\begin{itemize}
+  \item An AI-powered chatbot for statistical guidance.
+  \item Real-time R script compilation integrated with Shiny for interactive analytics.
+  \item Discussion forums for collaborative learning.
+  \item Offline access with Progressive Web App (PWA) technology.
+\end{itemize}
+
+\subsection{Cloud Integration}
+AWS and Firebase ensure secure storage, authentication, and real-time
+synchronization, enhancing user experience.
+
+\section{Testing and Validation}
+\label{sect:testing_validation}
+
+\subsection{Functional Testing}
+Blackbox testing validated each feature, including:
+\begin{itemize}
+  \item Google-based and NIM/password-based login functionalities.
+  \item Real-time R script compilation and error handling.
+  \item Accessibility of learning modules and forums.
+\end{itemize}
+
+\subsection{Usability Testing}
+Using the UMUX method, feedback was collected from 10 respondents. The average
+usability score was 85.4\%, classifying the application as "Very Usable."
+
+\subsection{Performance Testing}
+JMeter was employed to test API throughput and stress scenarios. The
+application successfully handled datasets exceeding 1GB without significant
+performance degradation.
+
+\subsection{Security Testing}
+OAuth2 authentication and MongoDB encryption were validated to ensure data
+security.
+
+\section{Results and Discussion}
+\label{sect:results_discussion}
+
+The testing phase highlighted the following outcomes:
+\begin{itemize}
+  \item High satisfaction rates due to intuitive design and efficient functionalities.
+  \item Positive reception of AI-guided learning modules for simplifying complex
+        concepts.
+  \item Challenges in iOS development due to platform-specific requirements.
+\end{itemize}
+
+While user feedback was overwhelmingly positive, enhancements are needed for
+advanced statistical explanations and seamless iOS integration.
+
+\section{Conclusion}
+\label{sect:conclusion}
+
+RWikiStat 4.0 represents a significant advancement in statistical learning
+tools, combining multiplatform support, AI integration, and offline
+capabilities. Future development will focus on enhancing AI functionalities and
+incorporating advanced statistical techniques.
+
+\balance
+
+\begin{thebibliography}{00}
+  \bibitem{b1}Subianto, Muhammad, and Hizir Sofyan. "Interactive statistics learning with RWikiStat." 2010 International Conference on Networking and Information Technology. IEEE, 2010.
+
+  \bibitem{b2}Sofyan, Hizir, Edi Muttaqin, and Muhammad Subianto. "RWikiStat 2.0: a Web Based Statistical Learning System (Session 1B (IASC-ARS))." Proceedings of the symposium of Japanese Society of Computational Statistics 26. Japanese Society of Computational Statistics, 2012.
+
+  \bibitem{b3}Sofyan, Hizir, et al. "Analisis Kepuasan Pengguna Aplikasi RWikiStat 3.0." Journal of Data Analysis 2.2 (2020): 80-87.
+
+\end{thebibliography}
+
+\end{document}
