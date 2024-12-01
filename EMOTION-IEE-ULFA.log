@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.25)  29 NOV 2024 03:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.25)  2 DEC 2024 00:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -391,27 +391,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 
-<images/web-welcome.png, id=10, 856.70062pt x 534.49687pt>
-File: images/web-welcome.png Graphic file (type png)
-<use images/web-welcome.png>
-Package pdftex.def Info: images/web-welcome.png  used on input line 220.
-(pdftex.def)             Requested size: 241.84843pt x 170.71626pt.
-<images/welcome.jpg, id=12, 593.21625pt x 1284.8pt>
-File: images/welcome.jpg Graphic file (type jpg)
-<use images/welcome.jpg>
-Package pdftex.def Info: images/welcome.jpg  used on input line 227.
-(pdftex.def)             Requested size: 113.80751pt x 227.60759pt.
+<images/web-materi.png, id=10, 856.70062pt x 499.11469pt>
+File: images/web-materi.png Graphic file (type png)
+<use images/web-materi.png>
+Package pdftex.def Info: images/web-materi.png  used on input line 219.
+(pdftex.def)             Requested size: 213.39029pt x 142.26439pt.
+<images/shiny.jpg, id=12, 741.77126pt x 1606.0pt>
+File: images/shiny.jpg Graphic file (type jpg)
+<use images/shiny.jpg>
+Package pdftex.def Info: images/shiny.jpg  used on input line 226.
+(pdftex.def)             Requested size: 99.58018pt x 184.94342pt.
 
 
-[2 <./images/web-welcome.png> <./images/welcome.jpg>]
+[2 <./images/web-materi.png> <./images/shiny.jpg>]
 
-
-
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
-[3]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -426,11 +419,10 @@ Before submitting the final camera ready copy, remember to:
 
 
 
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
 
-
-Overfull \vbox (1.73193pt too high) has occurred while \output is active []
-
- [4] (./EMOTION-IEE-ULFA.aux)
+[3] (./EMOTION-IEE-ULFA.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -442,17 +434,17 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  4884 strings out of 473584
- 76166 string characters out of 5732363
- 1964908 words of memory out of 5000000
+ 76129 string characters out of 5732363
+ 1966908 words of memory out of 5000000
  27722 multiletter control sequences out of 15000+600000
  598432 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,956b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,955b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EMOTION-IEE-ULFA.pdf (4 pages, 812660 bytes).
+Output written on EMOTION-IEE-ULFA.pdf (3 pages, 206495 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 39 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

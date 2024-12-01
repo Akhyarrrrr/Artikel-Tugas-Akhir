@@ -83,17 +83,17 @@
   \IEEEauthorblockA{\textit{Informatics Department} \\
     \textit{Universitas Syiah Kuala}\\
     Banda Aceh, Indonesia 23111\\
-    akhULFA1@mhs.usk.ac.id}
+    akhyar1@mhs.usk.ac.id}
 }
 
 \maketitle
 
 \begin{abstract}
-  RWikiStat 4.0 is a multi-platform learning application designed to enhance the teaching and learning experience in statistical education. Building on the strengths of its predecessors, RWikiStat 4.0 addresses the limitations of accessibility, interactivity, and collaboration by introducing features such as Shiny-based interactive data visualization, discussion forums, AI-powered chatbots, and R language compilers. Developed for web, Android, and iOS platforms, this version ensures cross-device compatibility and improved user experience. Testing results demonstrate high usability and user satisfaction, highlighting its potential as a comprehensive and innovative tool for statistical education. This application empowers students and educators to engage in dynamic, flexible, and interactive learning, setting a new standard in the field of statistical education.
+  RWikiStat 4.0 is a multi-platform learning application designed to enhance the teaching and learning experience in statistical education. Building on the strengths of its predecessors, RWikiStat 4.0 addresses the limitations of accessibility, interactivity, and collaboration by introducing features such as Shiny-based interactive data visualization, discussion forums, AI-powered chatbot, and R language compilers. Developed for web, Android, and iOS platforms, this version ensures cross-device compatibility and improved user experience. Testing results demonstrate high usability and user satisfaction, highlighting its potential as a comprehensive and innovative tool for statistical education. This application empowers students and educators to engage in dynamic, flexible, and interactive learning, setting a new standard in the field of statistical education.
 \end{abstract}
 
 \begin{IEEEkeywords}
-  RWikiStat 4.0, Statistical Education, Multi-Platform Learning, Shiny Visualization, Interactive Learning, AI Chatbot, Cross-Device Compatibility, R Language Compiler.
+  RWikiStat 4.0, Statistical Education, Multi-Platform Learning, Shiny Visualization, Interactive Learning.
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -109,28 +109,28 @@ group discussions rather than traditional lectures to improve students'
 understanding of the material \cite{b2}. One statistical learning system that
 implements this is RWikiStat.
 
-Rwikistat is an example of a digital learning system that has had a positive
+RWikiStat is an example of a digital learning system that has had a positive
 impact in the field of education. This application has been developed in 3
 versions, namely in 2010, 2012, and 2019. RWikiStat was initially developed in
 the form of a website in 2010 with the name Rweb to support users in inserting
 compiled R code to produce graphic or numerical output. Then, after being
 integrated with the wiki application, this application was finally known as
-RWIKISTAT \cite{b3}. The second version of RWikiStat was developed on the Linux
+RWikiStat \cite{b3}. The second version of RWikiStat was developed on the Linux
 operating system and is open source. In this version, users can edit web
 content, access it offline without requiring prior installation, as well as
 develop Live DVDs to ensure the application remains safe \cite{b4}. In 2019,
-RWikiStat 3.0 was developed as an Android application with a more responsive
-and easy-to-use interface \cite{b5}.
+RWikiStat 3.0 was developed as an Android application \cite{b5}.
 
-Although each version has made a significant contribution to the learning of
-statistics, there are still several aspects that can be improved. First,
-application accessibility in previous versions was only available on the web
-and Android platforms. This hinders the flexibility of users who need
-cross-device applications, including iOS. Furthermore, this application does
-not yet integrate features such as Shiny to visualize data in an attractive way
-for users. Third, real time collaboration features and discussion forums are
-not yet available so learning is less dynamic. Lastly, there is no adaptive
-support, such as AI-based assistance to answer questions from users.
+However, all three versions of RWikiStat are still simple and have limitations,
+especially in terms of interface design and functionality. This application
+does not have an attractive and effective interface in presenting information,
+making it difficult for users to use and access various information. Poorly
+organized navigation makes it difficult for users to find features. Apart from
+that, the available features also cannot support dynamic learning. Real time
+collaboration features and discussion forums are not yet available to support
+learning. Then, there is no adaptive support, such as AI-based assistance to
+answer questions from users. This application also does not integrate features
+such as Shiny to visualize data in an attractive way for users.
 
 To overcome these problems, this research aims to develop version 4.0 of the
 RWikiStat application to optimize previous versions. RWikiStat 4.0 was
@@ -208,8 +208,7 @@ various screen sizes. Meanwhile, the mobile version provides a similar
 experience with adjustments to the interface and touch interactions for Android
 and iOS devices. Users can easily access the features provided on various
 platforms. An application interface that prioritizes ease of use, grouping each
-component logically and with clear navigation. An easy-to-understand navigation
-system allows users to quickly access key features.
+component logically and with clear navigation.
 
 The following is a interface of the RWikiStat 4.0 application interface on
 various platforms, which illustrates the implementation of the design in the
@@ -217,59 +216,17 @@ web and mobile versions:
 
 \begin{figure}[htb]
   \centering
-  \includegraphics [width=8.5 cm, height=6 cm]{images/web-welcome}
-  \caption{Web Welcome Screen}
+  \fbox{\includegraphics [width=7.5 cm, height=5 cm]{images/web-materi}}
+  \caption{Web Module Screen}
   \label{distribution}
 \end{figure}
 
 \begin{figure}[htb]
   \centering
-  \includegraphics [width=4 cm, height=8 cm]{images/welcome}
-  \caption{Mobile Welcome Screen}
+  \includegraphics [width=3.5 cm, height=6.5 cm]{images/shiny}
+  \caption{Mobile Shiny Screen}
   \label{distribution}
 \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics [width=8.5 cm, height=6 cm]{images/web-login}}
-%   \caption{Web Login Screen}
-%   \label{distribution}
-% \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics[width=4cm, height=8cm]{images/login}}
-%   \caption{Mobile Login Screen}
-%   \label{distribution}
-% \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics [width=8.5 cm, height=6 cm]{images/web-modul}}
-%   \caption{Web Materials Screen}
-%   \label{distribution}
-% \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics[width=4cm, height=8cm]{images/home}}
-%   \caption{Mobile Materials Screen}
-%   \label{distribution}
-% \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics [width=8.5 cm, height=6 cm]{images/web-modul}}
-%   \caption{Login Screen Web}
-%   \label{distribution}
-% \end{figure}
-
-% \begin{figure}[htb]
-%   \centering
-%   \fbox{\includegraphics[width=4cm, height=8cm]{images/home}}
-%   \caption{Login Screen Mobile}
-%   \label{distribution}
-% \end{figure}
 
 \subsection{Main Features}
 RWikiStat 4.0 develops several new features to enhance the statistics learning
@@ -284,11 +241,10 @@ interaction.
 The next important feature is the discussion forum, which supports dynamic
 learning. This feature allows users to engage in discussions, ask and answer
 questions, and share insights related to statistical problems to the forum.
-With this feature available on all platforms, users can choose to discuss
-through the desired device. Another important feature is the sample code for
-each learning module. In addition to improving user understanding of the
-material, this feature also makes learning more interesting. Users can
-immediately try the examples and exercises provided in the module.
+Another important feature is the sample code for each learning module. In
+addition to improving user understanding of the material, this feature also
+makes learning more interesting. Users can immediately try the examples and
+exercises provided in the module.
 
 In this version, there is also an AI-based chatbot feature that can provide
 guidance in understanding statistical concepts to users. Users can ask various
@@ -354,7 +310,7 @@ logging out again. Then testing using the UMUX method can be seen in table
 \end{table}
 
 \begin{table}[htbp]
-  \caption{UMUX Testing and Evaluation Results for the Rwikistat Application}
+  \caption{UMUX Testing and Evaluation Results for the RWikiStat Application}
   \label{tab:umux_results}
   \resizebox{\columnwidth}{!}{%
     \begin{tabular}{|l|c|c|c|c|c|}
@@ -377,7 +333,7 @@ logging out again. Then testing using the UMUX method can be seen in table
 \end{table}
 
 Based on the test results using the UMUX method that has been carried out
-above, the average test results for the RwikiStat Application received a score
+above, the average test results for the RWikiStat Application received a score
 of 85.4\% It can be seen that the application that has been built has an
 interpretation score of "Very usable" based on the final calculation of the
 UMUX method. Overall, the development of RWikiStat 4.0 brings significant
@@ -388,21 +344,17 @@ users to learn anywhere and anytime.
 
 \section{Conclusion}
 \label{sect:conclusion}
-The development of RWikiStat 4.0 marks a significant step forward in advancing statistical education through an innovative, multi-platform learning application. By addressing the limitations of previous versions, RWikiStat 4.0 enhances user accessibility and engagement across web, Android, and iOS platforms. The integration of features such as interactive data visualization using Shiny, dynamic discussion forums, and an AI-powered chatbot provides a comprehensive learning environment that caters to diverse user needs.
 
-Testing results, including black box testing and the UMUX evaluation,
-demonstrate the application's reliability, usability, and user satisfaction,
-with an average usability score of 85.4\%, classified as "Very Usable." These
-outcomes highlight the success of RWikiStat 4.0 in delivering a modern,
-responsive, and user-friendly interface, along with powerful features for
-learning and teaching statistics.
-
-In conclusion, RWikiStat 4.0 effectively bridges gaps in statistical education
-by leveraging advanced technologies and innovative design. This application
-provides a flexible, interactive, and efficient learning experience, empowering
-users to explore and master statistical concepts anytime, anywhere. Its
-development underscores the importance of continuous improvement in educational
-tools to meet the evolving needs of learners in the 21st century.
+RWikiStat 4.0 is an innovative multi-platform statistics learning application,
+designed to increase accessibility and user engagement on the web, Android, and
+iOS. With features like interactive data visualization using Shiny, dynamic
+discussion forums, and AI-based chatbot, the app creates a comprehensive and
+responsive learning environment. Testing demonstrated reliability and user
+satisfaction with an average UMUX score of 85.4\%, categorized as "Highly
+Usable." RWikiStat 4.0 successfully bridges the gap in statistics education
+through advanced technology and innovative design, providing a flexible,
+interactive, and efficient learning experience to support the exploration and
+understanding of statistical concepts anytime and anywhere.
 
 \balance
 
