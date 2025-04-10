@@ -17,14 +17,13 @@
 \usepackage{xcolor}
 \usepackage{balance}
 \usepackage{multirow}
+\usepackage{enumitem}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
 \title{
-  Advancing Statistical Education with RWikiStat 4.0: A Comprehensive Multi-Platform Learning Application
-  \\
-  \thanks{*Corresponding Author}
+  Development of RWikiStat 4.0: A Multiplatform Application for Learning Basic Statistics Using the Rapid Application Development Method \\
 }
 
 \makeatletter
@@ -36,54 +35,12 @@
 \makeatother
 
 \author{
-  \IEEEauthorblockN{Hizir Sofyan}
-  \IEEEauthorblockA{\textit{Statistics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    hizir@usk.ac.id}
-  \and
-  \IEEEauthorblockN{Munawar}
-  \IEEEauthorblockA{\textit{Statistics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111 \\
-    munawar@mhs.usk.ac.id}
-  \and
-  \IEEEauthorblockN{Muhammad Subianto}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    subianto@usk.ac.id}
-  \and
-  \IEEEauthorblockN{Kurnia Saputra\textsuperscript{*}}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    kurnia.saputra@usk.ac.id}
-  \and
-  \linebreakand
-  \IEEEauthorblockN{Naufal Mas Adha}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    naufal@mhs.usk.ac.id}
-  \and
-  \IEEEauthorblockN{Affan Ian Amara}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    affan@mhs.usk.ac.id}
-  \and
-  \IEEEauthorblockN{Muhammad Nurifai}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    nurifai@mhs.usk.ac.id}
-  \and
-  \IEEEauthorblockN{Akhyar}
-  \IEEEauthorblockA{\textit{Informatics Department} \\
-    \textit{Universitas Syiah Kuala}\\
-    Banda Aceh, Indonesia 23111\\
-    akhyar1@mhs.usk.ac.id}
+  Hizir Sofyan\textsuperscript{1}, Munawar\textsuperscript{1}, Muhammad Subianto\textsuperscript{2}, Kurnia Saputra\textsuperscript{2*},\\
+  Naufal Mas Adha\textsuperscript{2}, Affan Ian Amara\textsuperscript{2}, Muhammad Nurifai\textsuperscript{2}, Akhyar\textsuperscript{2}\\
+  \\
+  \textsuperscript{1}Department of Statistics, Universitas Syiah Kuala, Banda Aceh, Indonesia\\
+  \textsuperscript{2}Department of Informatics, Universitas Syiah Kuala, Banda Aceh, Indonesia\\
+  *Corresponding Author: kurnia.saputra@usk.ac.id
 }
 
 \maketitle
@@ -99,215 +56,118 @@
 \section{Introduction}
 \label{sect:introduction}
 
-Statistics is a compulsory subject that many students consider difficult.
-Especially if the teaching method provided is too rigid and uninteresting. In
-recent decades, research in statistical learning has changed the structure of
-learning, namely by considering innovative pedagogical instruction, educational
-technology, and abundant Web resources \cite{b1}. In the GAISE guidelines, it
-is recommended that statistics teaching focus on projects, lab exercises, and
-group discussions rather than traditional lectures to improve students'
-understanding of the material \cite{b2}. One statistical learning system that
-implements this is RWikiStat.
+In the practice of learning statistics, there are still several challenges faced by students. Starting from challenges that arise from themselves, lecturers, the environment, and facilities and infrastructure. According to Deci and Dewi \cite{b1}, the facilities and infrastructure factor is the most influential factor in the teaching and learning process. This is also in accordance with the statement of Wild and Pfannkuch \cite{b2} who define that the lack of learning materials that can help students to practice and apply statistical thinking is a major problem in the practice of learning statistics. Traditional passive learning is considered less than optimal in describing the relationship between statistics and real-world applications. On the other hand, learning with the use of technology can help increase students enthusiasm for learning, such as in Serina's research which explored the challenges in teaching statistics by using Microsoft Excel as a teaching and learning tool. The statistical learning process carried out received a positive response and a high level of enthusiasm from students. This describes the opportunities to integrate various other technologies in helping statistical learning \cite{b3}.
 
-RWikiStat is an example of a digital learning system that has had a positive
-impact in the field of education. This application has been developed in 3
-versions, namely in 2010, 2012, and 2019. RWikiStat was initially developed in
-the form of a website in 2010 with the name Rweb to support users in inserting
-compiled R code to produce graphic or numerical output. Then, after being
-integrated with the wiki application, this application was finally known as
-RWikiStat \cite{b3}. The second version of RWikiStat was developed on the Linux
-operating system and is open source. In this version, users can edit web
-content, access it offline without requiring prior installation, as well as
-develop Live DVDs to ensure the application remains safe \cite{b4}. In 2019,
-RWikiStat 3.0 was developed as an Android application \cite{b5}.
+Various technologies can be utilized to assist in the learning process, such as the use of the web and mobile devices. Although various applications have been developed, many still have limitations in terms of interactivity, accessibility, and feature integration. Therefore, a solution was developed that can answer the problems in learning statistics by utilizing technology in the learning process. RWikiStat is present as a solution that combines learning modules, R compilers, chatbots, discussion forums, and customizable settings, offering a new approach to learning statistics that is more effective and efficient. RWikiStat is a statistics learning application that is now available in website versions and mobile applications based on Android and iOS.
 
-However, all three versions of RWikiStat are still simple and have limitations,
-especially in terms of interface design and functionality. This application
-does not have an attractive and effective interface in presenting information,
-making it difficult for users to use and access various information. Poorly
-organized navigation makes it difficult for users to find features. Apart from
-that, the available features also cannot support dynamic learning. Real time
-collaboration features and discussion forums are not yet available to support
-learning. Then, there is no adaptive support, such as AI-based assistance to
-answer questions from users. This application also does not integrate features
-such as Shiny to visualize data in an attractive way for users.
+RWikiStat was first launched as an interactive platform for learning statistics in 2010 by integrating a wiki application \cite{b4}. Development continued with the launch of RWikiStat 2.0 which is open-source and developed in the Linux environment \cite{b5}. Then in 2019 the third version was developed in the form of an Android application \cite{b6}. This development was perfected in 2024 to optimize all existing features. This version was developed using a combination of React Native and Expo so that it can run on Android and iOS platforms.
 
-To overcome these problems, this research aims to develop version 4.0 of the
-RWikiStat application to optimize previous versions. RWikiStat 4.0 was
-developed in a multi-platform form in the form of a website and mobile on the
-Android and iOS platforms with a more attractive appearance and has the
-function of presenting statistical theories from basic to advanced levels.
-RWikiStat 4.0 has several features, including features such as providing a
-statistics learning module, a compiler for the R language, discussion forums
-and chatbot features, as well as interactive graphic presentations with Shiny.
-The shiny package provides a collection of user interface (UI) functions that
-have been carefully selected and designed to generate the HTML, CSS, and
-JavaScript code required in commands. This step is expected to resolve problems
-existing in previous versions to improve user experience on various platforms.
+\section{Methodology}
+\label{sect:methodology}
 
-\section{Related Work}
-\label{sect:related_work}
-
-This research is a continuation of the development of the statistics learning
-application, RWikiStat, which was previously developed to version 3.0. The
-first version of RWikiStat was developed in 2010 under the name RWeb in the
-form of a website-based application. RWeb initially only focused on solving
-statistical problems using R alone to produce graphical or numerical output,
-then changed to RWikiStat after being integrated with wiki technology
-\cite{b3}. In 2012, this application was developed with the same function but
-on the Linux operating system using Live CD/DVD \cite{b4}. Both versions have
-several drawbacks such as a complicated interface, inefficient features, and
-lack of mobility. The next version of RWikiStat was developed as an Android
-application with a more responsive and easy-to-use interface \cite{b5}.
-However, these three versions still require improvement because they still have
-several shortcomings, such as still using Rweb (web interface for R statistical
-software) and Wiki media. Not yet using more modern interactive media.
-
-One interactive media that can be used is Shiny. Shiny is a package in the R
-programming language that allows users to easily create rich and interactive
-website-based applications \cite{b6}. The Shiny package offers a variety of
-user interface (UI) functions that are carefully designed to generate the HTML,
-CSS, and JavaScript code needed in a command. In 2017, six Shiny web
-applications were developed for students in introductory statistics or data
-analysis classes at Humboldt-Universität zu Berlin. These applications cover
-topics such as cluster analysis, regression, and data visualization, and
-demonstrate technical implementation and iterative improvements. Evaluation of
-an application's usability plays an important role in its development, and
-future additions and improvements are also discussed \cite{b7}. Shiny was also
-integrated into research developed by Satyahadewi et al. This research
-succeeded in developing a web-based application using Shiny for inferential
-statistics, showing that this framework is effective in supporting the
-development of statistical learning applications \cite{b9}. Research conducted
-by González et al. also successfully integrated Shiny to facilitate students'
-exploration of statistical concepts through an interactive interface \cite{b9}.
-
-\section{Design and Implementation}
-\label{sect:d_and_i}
-
-\subsection{System Architecture}
-RWikiStat 4.0 is designed with a multi-platform architecture that allows access
-across a variety of devices, including web, Android, and iOS. For mobile
-application development, Expo React Native is used, while the web version uses
-Next.js as the frontend framework. Both platforms, both mobile and web, share
-the same backend, which was developed using Express to ensure data consistency
-and server management efficiency.
-
-This application is built with a client-server architecture, where the client
-side, both on the web and mobile platforms, is responsible for handling user
-interaction and data presentation. The server side developed using Express is
-responsible for heavy tasks, such as statistical analysis and data processing,
-with extensive R library support. This architecture ensures applications are
-modular, scalable, and easy to maintain, and allows for consistent updates
-across all platforms.
-
-\subsection{User Interface and User Experience Design}
-The UI/UX design in RWikiStat 4.0 focuses on improving experiences that are
-attractive and easy to understand for users, both on web and mobile platforms.
-The web version is built with a clean and responsive layout that adapts to
-various screen sizes. Meanwhile, the mobile version provides a similar
-experience with adjustments to the interface and touch interactions for Android
-and iOS devices. Users can easily access the features provided on various
-platforms. An application interface that prioritizes ease of use, grouping each
-component logically and with clear navigation.
-
-The following is a interface of the RWikiStat 4.0 application interface on
-various platforms, which illustrates the implementation of the design in the
-web and mobile versions:
+Rapid Application Development (RAD) method was used in this research. This method was chosen because it has the ability to reuse existing components so that the time range can be shorter \cite{b7}. Furthermore, it reduces costs through focused development and has satisfactory results according to stakeholder feedback provided during the development process \cite{b8}. RAD has 4 stages which are requirements planning, user design, rapid construction, and implementation as can be seen in Figure~\ref{method}.
 
 \begin{figure}[htb]
   \centering
-  \fbox{\includegraphics [width=7.5 cm, height=5 cm]{images/web-materi}}
-  \caption{Web Module Screen}
-  \label{distribution}
+  \includegraphics [width=3 cm, height=5 cm]{images/method}
+  \caption{Research Methodology Flow Diagram}
+  \label{method}
 \end{figure}
 
-\begin{figure}[htb]
-  \centering
-  \includegraphics [width=3.5 cm, height=6.5 cm]{images/shiny}
-  \caption{Mobile Shiny Screen}
-  \label{distribution}
-\end{figure}
+\begin{enumerate}
+  \item Planning
+  \item[] In this stage, problem identification is carried out by discussing with stakeholders to determine the needs that are the basis for designing the system. These needs are the basis for designing and developing features in the application. From this process, a requirement specification is produced which includes the main features that must be present in the application. In addition, the target users for the system being developed are obtained, who are students of basic statistics courses.
 
-\subsection{Main Features}
-RWikiStat 4.0 develops several new features to enhance the statistics learning
-experience for users. One of its main features is the use of Shiny to visualize
-data in an attractive and interactive way. This visualization includes common
-statistical diagrams, such as histograms, scatter diagrams, and box plots,
-which can be customized based on user preferences. With this feature, users can
-understand the data more deeply, because of the visualizations displayed. This
-also helps users understand complex statistical concepts through direct
-interaction.
+        In addition, at this stage, the tools to be used were also agreed upon. To develop a multiplatform application, several frameworks were used, starting from Next.js for the website version, a combination of Expo and React Native for the mobile version, and Express.js as the application backend. Next.js was chosen because it has static site generation and optimized builds result in faster page loads \cite{b9}. Because of the need for fast development with the same results on Android and iOS platforms, Expo React Native is the best answer by providing a native look and fast reload \cite{b10}. Then, to store all data so that it is well organized, Express.js was chosen to build the application backend because it allows fast and efficient development \cite{b11}.
 
-The next important feature is the discussion forum, which supports dynamic
-learning. This feature allows users to engage in discussions, ask and answer
-questions, and share insights related to statistical problems to the forum.
-Another important feature is the sample code for each learning module. In
-addition to improving user understanding of the material, this feature also
-makes learning more interesting. Users can immediately try the examples and
-exercises provided in the module.
+  \item User Design
+  \item [] At the user design stage, an application prototype design is carried out based on the previous stage. The application design in the form of a user interface (UI) and prototype is created using the Figma tool. The prototype of this application will then be tested to evaluate its suitability to user desires. Then, all prototypes that have been tested will be adjusted again based on suggestions given by the user. The final result of this stage is an application design that includes all pages, navigation, and logical flows that will be implemented for the next stage.
 
-In this version, there is also an AI-based chatbot feature that can provide
-guidance in understanding statistical concepts to users. Users can ask various
-questions about statistics, such as data analysis, functions in R, and various
-theories about methods in statistics. With the chatbot feature, users will get
-direct help without having to leave the application to search first. This makes
-the learning experience more efficient and enjoyable.
+  \item Rapid Construction
+  \item [] In the rapid construction stage, the previously designed system is built. The system is built using agreed languages and frameworks, starting from database development, frontend, and backend. Through this stage, the finalized design is transformed into a usable application. In this stage, feedback collection from users is also continuously carried out to ensure that the system built is in accordance with desires.
+
+  \item Implementation
+  \item [] At the implementation stage, a thorough test is carried out on the system to ensure that there are no errors when implementing the system that has been built. Researchers use two testing methods, namely testing the system's functionality using black box testing to reduce the possibility of system defects and testing the system's usability using the Usability Metric for User Experience (UMUX) to measure the level of user satisfaction in using the system that has been built.
+
+
+\end{enumerate}
 
 \section{Results and Discussion}
 \label{sect:results_discussion}
 
-The RWikiStat application provides a satisfactory impact for both web and
-mobile versions. This is proven by the results of tests that have been carried
-out previously. Testing was carried out using the black box testing method and
-the Usability Matrix for User Experience (UMUX). The app runs smoothly, with
-fast response times and easy-to-access interactions, both on web and mobile
-devices. Test results using black box testing can be seen in table
-\ref{tab:testing_results} below
+The statistics learning application, RWikiStat has been developed on all platforms starting from the website, Android and iOS with features that can help learning. RWikiStat provides a statistics learning module equipped with sample questions and code samples so that users can directly practice the statistical concepts that have been learned. In addition to trying the code samples available in each module, users can also access the compiler and try various statistical codes in the R language to strengthen their understanding. The compiler that has been equipped with Shiny integration allows users to try to visualize the desired statistical data. Furthermore, RWikiStat provides a discussion forum that can be used to ask or answer questions that are understood. Then there is also a chatbot feature so that users can ask about statistical problems without having to move to another platform.
 
-\begin{table}[htbp]
-  \caption{BLACKBOX TESTING RESULTS}
-  \label{tab:testing_results}
-  \renewcommand{\arraystretch}{1.5} % Menambah jarak antar baris
-  \resizebox{\columnwidth}{!}{%
-    \begin{tabular}{|c|l|l|l|l|}
-      \hline
-      \textbf{No.} & \textbf{Testing Name}              & \textbf{Scenario}                                                                     & \textbf{Display}                                          & \textbf{Result} \\ \hline
-      1            & Sign-in with student ID            & Enter student ID and password in the text input, then press the login button          & Redirected to the main page                               & Success         \\ \hline
-      2            & Sign-in with Google                & Press the 'Sign in with Google' button and select a Google account for login          & Redirected to the main page                               & Success         \\ \hline
-      3            & Select learning module             & Select one of the module cards                                                        & Redirected to a page containing the module and R compiler & Success         \\ \hline
-      4            & Execute R / Shiny code in compiler & Enter simple R / Shiny code to execute                                                & Compilation results of the R code appear                  & Success         \\ \hline
-      5            & Add new question in forum          & Fill in the topic title, description, and photo, then press the 'Add Question' button & A new question is added                                   & Success         \\ \hline
-      6            & Access learning materials          & Click the materials icon                                                              & The main module page appears                              & Success         \\ \hline
-      7            & Access compiler feature            & Click the compiler icon                                                               & The main compiler page appears                            & Success         \\ \hline
-      8            & Access forum feature               & Click the forum icon                                                                  & The main forum page appears                               & Success         \\ \hline
-      9            & Access profile settings            & Click the settings icon                                                               & The main settings page appears                            & Success         \\ \hline
-      10           & Log out of the app                 & Click the logout icon on the settings page                                            & User is redirected to the sign-in page                    & Success         \\ \hline
-    \end{tabular}%
-  }
-\end{table}
+To ensure that the system runs according to user desires, two testing processes are carried out, namely functionality testing and usability testing.
 
-In the table \ref{tab:testing_results} can be seen that all test results were
-successful, starting from logging in, trying various available features, to
-logging out again. Then testing using the UMUX method can be seen in table
-\ref{tab:user_feedback} and \ref{tab:umux_results} below
+\begin{enumerate}[label=\alph*.]
+  \item Functionality Testing
+  \item [] Functional testing is done using black box testing to test the application in various desired scenarios. This testing is done to see the functions contained in the system. From all the features tested, all features were found to run well according to the expected scenario.
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage{graphicx}
-\begin{table}[htbp]
-  \caption{UMUX QUESTION LIST \cite{b10}}
-  \label{tab:user_feedback}
-  \resizebox{\columnwidth}{!}{%
-    \begin{tabular}{|c|l|c|}
-      \hline
-      \textbf{No.} & \textbf{Question}                                      & \textbf{Score} \\ \hline
-      1            & This application suits my needs.                       & 1 – 7          \\ \hline
-      2            & I had a bad experience using this application.         & 1 – 7          \\ \hline
-      3            & This application is easy to use.                       & 1 – 7          \\ \hline
-      4            & I have to spend a lot of time to use this application. & 1 – 7          \\ \hline
-    \end{tabular}%
-  }
-\end{table}
+  \item Usability Testing
+  \item [] Usability testing conducted using the UMUX method aims to test whether the system can be understood and used by users. Before conducting the test, a test plan application is prepared which can be seen in Table~\ref{tab:test_plan}.
+
+        \begin{table}[htbp]
+          \caption{Test Plan Application}
+          \label{tab:test_plan}
+          \resizebox{\columnwidth}{!}{%
+            \begin{tabular}{|l|}
+              \hline
+              \multicolumn{1}{|c|}{{\color[HTML]{333333} \textbf{Test Plan Application}}} \\ \hline
+              {\color[HTML]{333333}
+                \begin{tabular}[c]{@{}l@{}}
+                  Scenario:                                                      \\
+                  - The user opens the application.                              \\
+                  - The user understands the appearance of the home page.        \\
+                  - The user logs into the application.                          \\
+                  - The user accesses the learning modules.                      \\
+                  - The user reads the available learning modules.               \\
+                  - The user downloads the available learning modules.           \\
+                  - The user tries to compile R code.                            \\
+                  - The user tries to ask the chatbot a question.                \\
+                  - The user tries to post a question in the discussion forum.   \\
+                  - The user tries to answer a question in the discussion forum. \\
+                  - The user tries to save a post.                               \\
+                  - The user tries to like a post.                               \\
+                  - The user tries to view their post history.                   \\
+                  - The user tries to delete their own question.                 \\
+                  - The user tries to sign out of the application.
+                \end{tabular}
+              }                                                                           \\ \hline
+              {\color[HTML]{333333}
+                \begin{tabular}[c]{@{}l@{}}Tool:\\ - iOS Smartphone\end{tabular}
+              }                                                                           \\ \hline
+            \end{tabular}%
+          }
+        \end{table}
+
+        \begin{table}[htbp]
+          \caption{UMUX QUESTION LIST \cite{b12}}
+          \label{tab:umux_question_list}
+          \resizebox{\columnwidth}{!}{%
+            \begin{tabular}{|c|l|c|}
+              \hline
+              \textbf{No.} & \textbf{Question}                                      & \textbf{Score} \\ \hline
+              1            & This application suits my needs.                       & 1 – 7          \\ \hline
+              2            & I had a bad experience using this application.         & 1 – 7          \\ \hline
+              3            & This application is easy to use.                       & 1 – 7          \\ \hline
+              4            & I have to spend a lot of time to use this application. & 1 – 7          \\ \hline
+            \end{tabular}%
+          }
+        \end{table}
+\end{enumerate}
+
+Respondents will run the application according to the test plan that has been made. Respondents for this test consisted of 22 students of basic statistics courses. After that, respondents were asked to fill out a questionnaire form with questions as shown in Table~\ref{tab:umux_question_list}.
+
+After testing using the UMUX method, the test result data is processed following these steps:
+\begin{itemize}
+  \item Each odd-numbered item is calculated using the formula [user score- 1], while even-numbered items are calculated using the formula [7- user score].
+  \item The scores of each item filled in by the user are added up first, then divided by 24 (the maximum score value).
+  \item The result of the division is multiplied by 100.
+  \item Furthermore, the value is averaged for all users.
+  \item The UMUX score obtained is assessed on a scale of 0-100, according to general assessment standards.
+\end{itemize}
+
+The results of the tests carried out using the UMUX method can be seen in Table~\ref{tab:umux_results}.
 
 \begin{table}[htbp]
   \caption{UMUX Testing and Evaluation Results for the RWikiStat Application}
@@ -315,69 +175,76 @@ logging out again. Then testing using the UMUX method can be seen in table
   \resizebox{\columnwidth}{!}{%
     \begin{tabular}{|l|c|c|c|c|c|}
       \hline
-      \textbf{Respondent}   & \multicolumn{4}{c|}{\textbf{Question Number}} & \textbf{Final Score}                                           \\ \hline
-                            & \textbf{1}                                    & \textbf{2}           & \textbf{3} & \textbf{4} &               \\ \hline
-      Statistics Student 1  & 7                                             & 2                    & 7          & 2          & 91.6          \\ \hline
-      Statistics Student 2  & 7                                             & 1                    & 7          & 1          & 100           \\ \hline
-      Statistics Student 3  & 6                                             & 2                    & 6          & 2          & 83.3          \\ \hline
-      Statistics Student 4  & 6                                             & 2                    & 5          & 4          & 70.8          \\ \hline
-      Statistics Student 5  & 6                                             & 1                    & 7          & 3          & 87.5          \\ \hline
-      Statistics Student 6  & 7                                             & 2                    & 6          & 1          & 91.6          \\ \hline
-      Statistics Student 7  & 7                                             & 1                    & 6          & 3          & 87.5          \\ \hline
-      Informatics Student 1 & 6                                             & 4                    & 5          & 5          & 58.3          \\ \hline
-      Informatics Student 2 & 7                                             & 1                    & 7          & 1          & 100           \\ \hline
-      Informatics Student 3 & 6                                             & 2                    & 7          & 3          & 83.3          \\ \hline
-      \textbf{Average}      &                                               &                      &            &            & \textbf{85.4} \\ \hline
+      \multirow{2}{*}{\textbf{Respondent}}   & \multicolumn{4}{c|}{\textbf{Question Number}} & \multirow{2}{*}{\textbf{Final Score}}                                   \\ \cline{2-5}
+                                             & \textbf{1}                                    & \textbf{2}                            & \textbf{3} & \textbf{4} & ~     \\ \hline
+      Chemistry Student 2                    & 4                                             & 1                                     & 7          & 1          & 87,5  \\ \hline
+      Chemistry Student 3                    & 4                                             & 1                                     & 6          & 2          & 79,17 \\ \hline
+      Chemistry Student 4                    & 7                                             & 1                                     & 7          & 3          & 91,67 \\ \hline
+      Chemistry Student 5                    & 6                                             & 2                                     & 5          & 3          & 75    \\ \hline
+      Chemistry Student 6                    & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Informatics Student 1                  & 7                                             & 2                                     & 7          & 1          & 95,83 \\ \hline
+      Informatics Student 2                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Informatics Student 3                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Informatics Student 4                  & 7                                             & 2                                     & 6          & 2          & 87,5  \\ \hline
+      Informatics Student 5                  & 7                                             & 1                                     & 7          & 2          & 95,83 \\ \hline
+      Informatics Student 6                  & 7                                             & 2                                     & 5          & 2          & 83,33 \\ \hline
+      Informatics Student 7                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Biology Student 1                      & 5                                             & 1                                     & 7          & 5          & 75    \\ \hline
+      Biology Student 2                      & 7                                             & 1                                     & 7          & 4          & 87,5  \\ \hline
+      Biology Student 3                      & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Biology Student 4                      & 6                                             & 1                                     & 7          & 1          & 95,83 \\ \hline
+      Biology Student 5                      & 5                                             & 1                                     & 7          & 1          & 91,67 \\ \hline
+      Biology Student 6                      & 4                                             & 1                                     & 4          & 2          & 70,83 \\ \hline
+      Biology Student 7                      & 6                                             & 2                                     & 6          & 6          & 66,67 \\ \hline
+      Biology Student 8                      & 7                                             & 1                                     & 7          & 5          & 83,33 \\ \hline
+      Biology Student 9                      & 6                                             & 1                                     & 6          & 4          & 75    \\ \hline
+
+      \multicolumn{5}{|c|}{\textbf{Average}} & \textbf{88.26}                                                                                                          \\ \hline
     \end{tabular}%
   }
 \end{table}
 
-Based on the test results using the UMUX method that has been carried out
-above, the average test results for the RWikiStat Application received a score
-of 85.4\% It can be seen that the application that has been built has an
-interpretation score of "Very usable" based on the final calculation of the
-UMUX method. Overall, the development of RWikiStat 4.0 brings significant
-changes in the way users interact with statistics learning materials. With more
-advanced interactive features and better multi-platform capabilities, this
-application is ready to provide a more flexible learning experience, allowing
-users to learn anywhere and anytime.
+Based on the test results in Table xx, an average value of 88.26\% was obtained. This shows that the RWikiStat application has an interpretation score of "Best Imaginable" with a grade of "A" using the UMUX calculation method.
 
-\section{Conclusion}
+
+
+\section{Conclusions and Suggestions}
 \label{sect:conclusion}
 
-RWikiStat 4.0 is an innovative multi-platform statistics learning application,
-designed to increase accessibility and user engagement on the web, Android, and
-iOS. With features like interactive data visualization using Shiny, dynamic
-discussion forums, and AI-based chatbot, the app creates a comprehensive and
-responsive learning environment. Testing demonstrated reliability and user
-satisfaction with an average UMUX score of 85.4\%, categorized as "Highly
-Usable." RWikiStat 4.0 successfully bridges the gap in statistics education
-through advanced technology and innovative design, providing a flexible,
-interactive, and efficient learning experience to support the exploration and
-understanding of statistical concepts anytime and anywhere.
+In this paper, we introduce an interactive statistics learning application, RWikiStat, to increase student interest in learning statistics. This application has features that can facilitate students in learning, such as the existence of learning modules equipped with sample questions along with sample codes for each material, allowing students to try it directly. There is also a discussion forum that can create interactive and interesting learning. Moreover, chatbot features and compiler features equipped with Shiny implementation to visualize data statistically are also available in this application. This allows users to understand statistical concepts in an interesting way. RWikiStat is also available for all platforms, which are websites, Android and iOS, thus expanding the scope of users who can use it. To ensure that all features run according to the plan, we have conducted functionality testing using the black box testing method. In this test, it was found that all features can run properly. In addition, usability testing was also carried out to ensure that this application can be used easily by users. The results of this test found that the level of satisfaction of respondents who were students of introductory statistics courses was 88.26\%, which indicates “Best Imaginable” with grade “A” using the UMUX calculation method.
+
+In conclusion, RWikiStat application has proven to be user-friendly and has the potential to become a tool in the field of statistics. Further development for this application can be done by providing multi-language features and allowing offline access by users.
+
 
 \balance
 
 \begin{thebibliography}{00}
-  \bibitem{b1}Tishkovskaya, Svetlana, and Gillian A. Lancaster. "Statistical education in the 21st century: A review of challenges, teaching innovations and strategies for reform." Journal of Statistics Education 20.2 (2012).
 
-  \bibitem{b2}Roseth, Cary J., Joan B. Garfield, and Dani Ben-Zvi. "Collaboration in learning and teaching statistics." Journal of statistics education 16.1 (2008).
+  \bibitem{b1}Ririen, Deci, and Dewi Hartika. "Identifikasi Kesulitan Belajar Mahasiswa pada Mata Kuliah Statistika Selama Masa Pandemi Covid-I9." Jurnal Ilmiah Universitas Batanghari Jambi 21.1 (2021): 148-155.
 
-  \bibitem{b3}Subianto, Muhammad, and Hizir Sofyan. "Interactive statistics learning with RWikiStat." 2010 International Conference on Networking and Information Technology. IEEE, 2010.
+  \bibitem{b2}Wild, Chris J., and Maxine Pfannkuch. "Statistical thinking in empirical enquiry." International statistical review 67.3 (1999): 223-248.
 
-  \bibitem{b4}Sofyan, Hizir, Edi Muttaqin, and Muhammad Subianto. "RWikiStat 2.0: a Web Based Statistical Learning System (Session 1B (IASC-ARS))." Proceedings of the symposium of Japanese Society of Computational Statistics 26. Japanese Society of Computational Statistics, 2012.
+  \bibitem{b3}Uchima-Marin, Cristian, et al. "Integration of Technological Tools in Teaching Statistics: Innovations in Educational Technology for Sustainable Education." Sustainability 16.19 (2024): 8344.
 
-  \bibitem{b5}Sofyan, Hizir, et al. "Analisis Kepuasan Pengguna Aplikasi RWikiStat 3.0." Journal of Data Analysis 2.2 (2020): 80-87.
+  \bibitem{b4}Subianto, Muhammad, and Hizir Sofyan. "Interactive statistics learning with RWikiStat." 2010 International Conference on Networking and Information Technology. IEEE, 2010.
 
-  \bibitem{b6}Wickham, Hadley. Mastering shiny. " O'Reilly Media, Inc.", 2021.
+  \bibitem{b5}Sofyan, Hizir, Edi Muttaqin, and Muhammad Subianto. "RWikiStat 2.0: a Web Based Statistical Learning System (Session 1B (IASC-ARS))." Proceedings of the symposium of Japanese Society of Computational Statistics 26. Japanese Society of Computational Statistics, 2012.
 
-  \bibitem{b7}Gärtner, Jonas. Programming and evaluation of Shiny applications for lectures. Humboldt Universitaet zu Berlin (Germany), 2017.
+  \bibitem{b6}Sofyan, Hizir, et al. "Analisis Kepuasan Pengguna Aplikasi RWikiStat 3.0." Journal of Data Analysis 2.2 (2020): 80-87.
 
-  \bibitem{b8}Satyahadewi, Neva, and Hendra Perdana. "Web Application Development for Inferential Statistics using R Shiny." 1st International Conference on Mathematics and Mathematics Education (ICMMEd 2020). Atlantis Press, 2021.
+  \bibitem{b7}Anggraini, Lili. "The Impact of New Media in the Information Society Era." Journal of Information Systems and Management (JISMA) 2.2 (2023): 29-33.
 
-  \bibitem{b9}González, José A., et al. "Assessing Shiny apps through student feedback: Recommendations from a qualitative study." Computer Applications in Engineering Education 26.5 (2018): 1813-1824.
+  \bibitem{b8}Paulsen, June Blydt, and Helle Låhne Smedsrud. The" Good Enough" Tsunami: The Disruptive Potential of Low-code and No-code: A multiple case-study on scope, trends, and implications. MS thesis. 2023.
 
-  \bibitem{b10}Lewis, James R. "Measuring perceived usability: The CSUQ, SUS, and UMUX." International Journal of Human–Computer Interaction 34.12 (2018): 1148-1156.
+  \bibitem{b9}Svedas, Egidijus. "Building an application using Next. js." (2024).
+
+  \bibitem{b10}Nitschke, Marlies, et al. "Refinement and usability analysis of an eHealth app for ankylosing spondylitis as a complementary treatment to physical therapy: development and usability study." JMIR Formative Research 7 (2023): e47426.
+
+  \bibitem{b11}Azkarin, Varinia, Rangga Gelar Guntara, and Oding Herdiana. "Development of a REST API for Human Resource Information System for Employee Referral Management Domain Using the Express JS Framework and Node. js." Journal of Scientific Research, Education, and Technology (JSRET) 2.3 (2023): 1085-1094.
+
+  \bibitem{b12}Lewis, James R., and Jeff Sauro. "Usability and user experience: Design and evaluation." Handbook of human factors and ergonomics (2021): 972-1015.
+
+  \bibitem{b13}Finstad, Kraig. "The usability metric for user experience." Interacting with computers 22.5 (2010): 323-327.
 
 \end{thebibliography}
 

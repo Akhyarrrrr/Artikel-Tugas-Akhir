@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.25)  2 DEC 2024 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.25)  11 APR 2025 00:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex"
-(y:/USK/.SEMESTER 7/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex
+**"y:/USK/.SEMESTER 7 & 8/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex"
+(y:/USK/.SEMESTER 7 & 8/Tugas Akhir/Skripsi/Artikel Tugas Akhir/EMOTION-IEE-ULFA.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (./IEEEtran.cls
@@ -290,31 +290,35 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count294
 \multirow@dima=\skip58
 \bigstrutjot=\dimen185
+) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen186
+\enit@toks=\toks25
+\enit@inbox=\box56
+\enit@count@id=\count295
+\enitdp@description=\count296
 ) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box56
-) (./EMOTION-IEE-ULFA.aux
-
-LaTeX Warning: Label `distribution' multiply defined.
-
-)
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box57
+) (./EMOTION-IEE-ULFA.aux)
 \openout1 = `EMOTION-IEE-ULFA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 -- Lines per column: 59 (approximate, difference = 10.71698pt).
 *geometry* driver: auto-detecting
@@ -353,57 +357,49 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
-\scratchdimen=\dimen186
-\scratchbox=\box57
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count299
-\MPscratchDim=\dimen187
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count298
+\scratchdimen=\dimen187
+\scratchbox=\box58
+\nofMPsegments=\count299
+\nofMParguments=\count300
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen188
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
+\everyMPtoPDFconversion=\toks27
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 89.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+<images/method.png, id=1, 260.47313pt x 415.5525pt>
+File: images/method.png Graphic file (type png)
+<use images/method.png>
+Package pdftex.def Info: images/method.png  used on input line 72.
+(pdftex.def)             Requested size: 85.35625pt x 142.26247pt.
 
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
-]
-
-<images/web-materi.png, id=10, 856.70062pt x 499.11469pt>
-File: images/web-materi.png Graphic file (type png)
-<use images/web-materi.png>
-Package pdftex.def Info: images/web-materi.png  used on input line 219.
-(pdftex.def)             Requested size: 213.39029pt x 142.26439pt.
-<images/shiny.jpg, id=12, 741.77126pt x 1606.0pt>
-File: images/shiny.jpg Graphic file (type jpg)
-<use images/shiny.jpg>
-Package pdftex.def Info: images/shiny.jpg  used on input line 226.
-(pdftex.def)             Requested size: 99.58018pt x 184.94342pt.
+ <./images/method.png>]
 
 
-[2 <./images/web-materi.png> <./images/shiny.jpg>]
+
+[2]
 
 
 ** Conference Paper **
@@ -427,24 +423,20 @@ Package balance Warning: You have called \balance in second column
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4884 strings out of 473584
- 76129 string characters out of 5732363
- 1966908 words of memory out of 5000000
- 27722 multiletter control sequences out of 15000+600000
- 598432 words of font info for 116 fonts, out of 8000000 for 9000
+ 5210 strings out of 473584
+ 81668 string characters out of 5732363
+ 1963908 words of memory out of 5000000
+ 28045 multiletter control sequences out of 15000+600000
+ 598350 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,955b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EMOTION-IEE-ULFA.pdf (3 pages, 206495 bytes).
+ 57i,15n,65p,1470b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on EMOTION-IEE-ULFA.pdf (3 pages, 79015 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
