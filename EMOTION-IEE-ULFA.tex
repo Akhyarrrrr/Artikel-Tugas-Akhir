@@ -1,25 +1,30 @@
-\documentclass[conference,a4paper]{IEEEtran}
-\IEEEoverridecommandlockouts
-\usepackage[left=1.57cm,right=1.57cm,top=0.95cm,bottom=2.54cm]{geometry}
-\newpage % Mulai halaman kedua
-% \usepackage{caption}
+  \documentclass[conference,a4paper]{IEEEtran}
+  \IEEEoverridecommandlockouts
+  \usepackage[left=1.57cm,right=1.57cm,top=0.95cm,bottom=2.54cm]{geometry}
+  \newpage % Mulai halaman kedua
+  % \usepackage{caption}
 
-% \captionsetup[figure]{justification=raggedright, singlelinecheck=off}
+  % \captionsetup[figure]{justification=raggedright, singlelinecheck=off}
 
-% Mengubah margin pada halaman kedua
-\newgeometry{left=1.57cm,right=1.57cm,top=1.9cm,bottom=2.54cm}
-% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
-\usepackage{cite}
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage{algorithmic}
-\usepackage{graphicx}
-\usepackage{textcomp}
-\usepackage{xcolor}
-\usepackage{balance}
-\usepackage{multirow}
-\usepackage{enumitem}
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+  % Mengubah margin pada halaman kedua
+  \newgeometry{left=1.57cm,right=1.57cm,top=1.9cm,bottom=2.54cm}
+  % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+  \usepackage{cite}
+  \usepackage{amsmath,amssymb,amsfonts}
+  \usepackage{algorithmic}
+  \usepackage{graphicx}
+  \usepackage{textcomp}
+  \usepackage{xcolor}
+  \usepackage{balance}
+  \usepackage{multirow}
+  \usepackage{enumitem}
+  \usepackage{subcaption}
+  \usepackage{float}
+  \usepackage{longtable}
+  \usepackage{ltxtable}
+  \usepackage{array}
+  \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+      T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
 \title{
@@ -59,32 +64,70 @@
 \section{Introduction}
 \label{sect:introduction}
 
-In the practice of learning statistics, there are still several challenges faced by students. Starting from challenges that arise from themselves, lecturers, the environment, and facilities and infrastructure. According to Deci and Dewi \cite{b1}, the facilities and infrastructure factor is the most influential factor in the teaching and learning process. This is also in accordance with the statement of Wild and Pfannkuch \cite{b2} who define that the lack of learning materials that can help students to practice and apply statistical thinking is a major problem in the practice of learning statistics. Traditional passive learning is considered less than optimal in describing the relationship between statistics and real-world applications. On the other hand, learning with the use of technology can help increase students enthusiasm for learning, such as in Serina's research which explored the challenges in teaching statistics by using Microsoft Excel as a teaching and learning tool. The statistical learning process carried out received a positive response and a high level of enthusiasm from students. This describes the opportunities to integrate various other technologies in helping statistical learning \cite{b3}.
-
+In the practice of learning statistics, there are still several challenges faced by students. Starting from challenges that arise from themselves, lecturers, the environment, and facilities and infrastructure. According to Deci and Dewi \cite{b1}, the facility and infrastructure factor is the most influential factor in the teaching and learning process. This is also in accordance with the statement of Wild and Pfannkuch \cite{b2} who define that the lack of teaching materials that can help students to practice and apply statistical thinking is the main problem in the practice of learning statistics. Traditional passive learning is considered less than optimal in describing the relationship between statistics and its applications in the real world.
 Various technologies can be utilized to assist in the learning process, such as the use of the web and mobile devices. Although various applications have been developed, many still have limitations in terms of interactivity, accessibility, and feature integration. Therefore, a solution was developed that can answer the problems in learning statistics by utilizing technology in the learning process. RWikiStat is present as a solution that combines learning modules, R compilers, chatbots, discussion forums, and customizable settings, offering a new approach to learning statistics that is more effective and efficient. RWikiStat is a statistics learning application that is now available in website versions and mobile applications based on Android and iOS.
 
-RWikiStat was first launched as an interactive platform for learning statistics in 2010 by integrating a wiki application \cite{b4}. Development continued with the launch of RWikiStat 2.0 which is open-source and developed in the Linux environment \cite{b5}. Then in 2019 the third version was developed in the form of an Android application \cite{b6}. This development was perfected in 2024 to optimize all existing features. This version was developed using a combination of React Native and Expo so that it can run on Android and iOS platforms.
+On the other hand, learning with the use of technology can help increase students' enthusiasm for learning, such as in Serina's research which explored the challenges in teaching statistics using Microsoft Excel as a teaching and learning tool. The statistics learning process that was carried out received a positive response and high enthusiasm from students. This illustrates the opportunity to integrate various other technologies in helping statistics learning \cite{b3}. Research conducted by Wilson using flipped classrooms and interactive class activities has also been shown to increase students' interest in learning statistics. This can happen because they can see that there are resources available to help them when needed. From this study it was also found that students prefer learning accompanied by various practice questions and practical activities in learning statistics \cite{b4}.
+
+Along with the development of technology, various platforms can now be utilized to assist the learning process, such as the use of the web and mobile devices. The use of various technologies in the world of education can facilitate the achievement of teaching objectives and enrich learning by presenting them efficiently. Research conducted by Talan using the meta-analysis method shows that the use of mobile learning with good planning can have a positive impact and can improve student learning performance \cite{b5}. Realizing the high potential of using technology to help improve learning, a solution has been developed that can increase student interest in learning statistics. Although various applications have been developed, many still have limitations in terms of interactivity, accessibility, and feature integration.
+
+RWikiStat is present as a solution that combines learning modules, R compilers, chat-bots, discussion forums, and customizable settings, thus offering a new approach to learning statistics that is more effective and efficient. RWikiStat is a statistics learning application that is now available in website versions and Android and iOS-based mobile applications. RWikiStat was first launched as an interactive platform for statistical learning in 2010 by integrating a wiki application \cite{b6}. Development continued with the launch of RWikiStat 2.0 which is open-source and developed in the Linux environment \cite{b7}. Then in 2019, the third version was developed in the form of an Android application with a more responsive and easy-to-use interface \cite{b8}. This development was perfected in 2024 to optimize all existing features. This version was developed in a multiplatform form in the form of a website and mobile on the Android and iOS platforms. Development in the website version for the frontend side uses Next.js and Express.js for the backend side. While the mobile version uses a combination of React Native and Expo. This version is built with a more attractive appearance and has the function of presenting statistical theory from basic to advanced levels.
+
+\section{Literature Review}
+\label{sect:literature_review}
+Our research explores the various uses of technology in improving the learning process, especially in statistics learning. Various studies have shown that the use of technology has a positive impact on teaching and learning aspects \cite{b9}\cite{b10}\cite{b11}. In general, there are various applications that facilitate learning without focusing on a particular field. Examples include Google Classroom which is innovative and effective in improving student performance \cite{b12} and Kahoot which can improve interaction between students and teachers \cite{b13}.
+
+Furthermore, there are various studies that apply the use of technology with a focus on the field of statistics. One of them is a study by Quiñones et al \cite{b14} who developed EstApp, a mobile-based application to improve understanding of statistical concepts by presenting artificial intelligence-based tutor features. Then there is a math app that was developed to teach statistics at the secondary education level. The application received positive feedback from users \cite{b15}. In addition, research conducted by Blackburn \cite{b16} using e-Learning can improve the level of understanding of students.
+
+Unlike previous studies that generally only provide learning materials and concept visualizations, RWikiStat integrates active learning features such as AI-based chatbots, discussion forums in one application, learning modules, and compilers with Shiny integration. Shiny offers a variety of user interface (UI) functions that are carefully designed to generate the HTML, CSS, and JavaScript code needed in a command. Several studies have shown the effectiveness of using Shiny in statistics education. One of them is a study by González et al. who successfully integrated Shiny to facilitate student exploration of statistical concepts through an interactive interface \cite{b17}.
+
+To realize flexibility and cross-device accessibility, RWikiStat was developed using a combination of Next.js for the frontend, Express.js for the backend, and Expo React Native for the Android and iOS mobile versions. The selection of Expo was based on its advantages, namely an open-source framework that allows the development of mobile applications that are compatible across multiple platforms \cite{b18}. Expo provides various tools that simplify the process of developing, testing, and deploying applications to Android and iOS platforms efficiently.
 
 \section{Methodology}
 \label{sect:methodology}
 
-Rapid Application Development (RAD) method was used in this research. This method was chosen because it has the ability to reuse existing components so that the time range can be shorter \cite{b7}. Furthermore, it reduces costs through focused development and has satisfactory results according to stakeholder feedback provided during the development process \cite{b8}. RAD has 4 stages which are requirements planning, user design, rapid construction, and implementation as can be seen in Figure~\ref{method}.
+This study uses the Rapid Application Development (RAD) method which was chosen because it focuses on application development in a short time. This method is considered to be able to support the progress and acceleration of system implementation \cite{b19}. By using this method, users can check and evaluate the system from the early stages, so they can determine whether the system is in accordance with their needs and suggest necessary changes \cite{b20}. RAD has 4 stages, namely requirement planning, user design, rapid construction, and implementation as can be seen in Figure~\ref{method}.
 
 \begin{figure}[htb]
   \centering
-  \includegraphics [width=3 cm, height=4.5 cm]{images/method}
+  \includegraphics[width=0.3\textwidth]{images/method}
   \caption{Research Methodology Flow Diagram}
   \label{method}
 \end{figure}
 
+\noindent
 \begin{enumerate}
   \item Planning
   \item[] In this stage, problem identification is carried out by discussing with stakeholders to determine the needs that are the basis for designing the system. These needs are the basis for designing and developing features in the application. From this process, a requirement specification is produced which includes the main features that must be present in the application. In addition, the target users for the system being developed are obtained, who are students of basic statistics courses.
 
-        In addition, at this stage, the tools to be used were also agreed upon. To develop a multiplatform application, several frameworks were used, starting from Next.js for the website version, a combination of Expo and React Native for the mobile version, and Express.js as the application backend. Next.js was chosen because it has static site generation and optimized builds result in faster page loads \cite{b9}. Because of the need for fast development with the same results on Android and iOS platforms, Expo React Native is the best answer by providing a native look and fast reload \cite{b10}. Then, to store all data so that it is well organized, Express.js was chosen to build the application backend because it allows fast and efficient development \cite{b11}.
+        In addition, at this stage, the tools to be used were also agreed upon. To develop a multiplatform application, several frameworks were used, starting from Next.js for the website version, a combination of Expo and React Native for the mobile version, and Express.js as the application backend. Next.js was chosen because it has static site generation and optimized builds result in faster page loads \cite{b21}. Because of the need for fast development with the same results on Android and iOS platforms, Expo React Native is the best answer by providing a native look and fast reload \cite{b22}. Then, to store all data so that it is well organized, Express.js was chosen to build the application backend because it allows fast and efficient development \cite{b23}.
 
   \item User Design
   \item [] At the user design stage, an application prototype design is carried out based on the previous stage. The application design in the form of a user interface (UI) and prototype is created using the Figma tool. The prototype of this application will then be tested to evaluate its suitability to user desires. Then, all prototypes that have been tested will be adjusted again based on suggestions given by the user. The final result of this stage is an application design that includes all pages, navigation, and logical flows that will be implemented for the next stage.
+
+        The design of the RWikiStat application can be seen in Figure~\ref{fig:design} and Figure~\ref{fig:webdesign}.
+        \begin{figure}[H]
+          \centering
+          \begin{subfigure}{0.49\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{images/welcome.png}
+          \end{subfigure}
+          \hfill
+          \begin{subfigure}{0.49\linewidth}
+            \centering
+            \includegraphics[width=\linewidth]{images/modul.png}
+          \end{subfigure}
+          \caption{RWikiStat Application Design}
+          \label{fig:design}
+        \end{figure}
+
+
+        \begin{figure}[htb]
+          \centering
+          \includegraphics [width=9 cm, height=6 cm]{images/web-login.png}
+          \caption{RWikiStat Web Design}
+          \label{fig:webdesign}
+        \end{figure}
 
   \item Rapid Construction
   \item [] In the rapid construction stage, the previously designed system is built. The system is built using agreed languages and frameworks, starting from database development, frontend, and backend. Through this stage, the finalized design is transformed into a usable application. In this stage, feedback collection from users is also continuously carried out to ensure that the system built is in accordance with desires.
@@ -104,10 +147,44 @@ To ensure that the system runs according to user desires, two testing processes 
 
 \begin{enumerate}[label=\alph*.]
   \item Functionality Testing
-  \item [] Functional testing is done using black box testing to test the application in various desired scenarios. This testing is done to see the functions contained in the system. From all the features tested, all features were found to run well according to the expected scenario.
+  \item [] Functional testing is done using black box testing to test the application in various desired scenarios. This testing is done to see the functions in the system without requiring knowledge of how the system works internally \cite{b24}. This method provides several advantages, such as rapid test case development, efficient for large code segments, and reusable testing \cite{b25}. In this study, there were 27 test scenarios performed, with all scenarios running as expected. Some of the tests performed can be seen in Table I
+
+        \begin{table}[H]
+          \centering
+          \scriptsize
+          \caption{Functional Testing Scenarios}
+          \label{tab:functional-part1}
+          \begin{tabular}{|c|p{1cm}|p{2cm}|p{2cm}|p{1cm}|}
+            \hline
+            \textbf{No.} & \textbf{Testing Name}   & \textbf{Scenario}                                          & \textbf{Display}                  & \textbf{Result} \\ \hline
+            1            & Sign-in with student ID & Enter student ID and password, then press login button     & Redirected to main page           & Success         \\ \hline
+            2            & Sign-in with Google     & Press ‘Sign in with Google’ and select account for login   & Redirected to main page           & Success         \\ \hline
+            3            & Sign-in with Apple ID   & Press ‘Sign in with Apple ID’ and select account for login & Redirected to main page           & Success         \\ \hline
+            4            & Access material tab     & Click the “Material” icon                                  & Redirected to material page       & Success         \\ \hline
+            5            & Access compiler tab     & Click the “Compiler” icon                                  & Redirected to compiler page       & Success         \\ \hline
+            6            & Access chatbot tab      & Click the “Chatbot” icon                                   & Redirected to chatbot page        & Success         \\ \hline
+            7            & Access forum tab        & Click the “Forum” icon                                     & Redirected to forum page          & Success         \\ \hline
+            8            & Access settings tab     & Click the “Settings” icon                                  & Redirected to settings page       & Success         \\ \hline
+            9            & Select learning module  & Select one of the module cards                             & Redirected to module + R compiler & Success         \\ \hline
+          \end{tabular}
+        \end{table}
+
+        \begin{table}[H]
+          \centering
+          \scriptsize
+          \label{tab:functional-part2}
+          \begin{tabular}{|c|p{1cm}|p{2cm}|p{2cm}|p{1cm}|}
+            \hline
+            \textbf{No.} & \textbf{Testing Name} & \textbf{Scenario}                                         & \textbf{Display}             & \textbf{Result} \\ \hline
+            10           & Execute R/Shiny code  & Enter simple R/Shiny code to execute                      & Compilation result displayed & Success         \\ \hline
+            11           & Add question to forum & Fill topic, description, photo, then press ‘Add Question’ & New question is added        & Success         \\ \hline
+            12           & Logout                & Click logout icon on settings page                        & Redirected to sign-in page   & Success         \\ \hline
+          \end{tabular}
+        \end{table}
+
 
   \item Usability Testing
-  \item [] Usability testing conducted using the UMUX method aims to test whether the system can be understood and used by users. Before conducting the test, a test plan application is prepared which can be seen in Table~\ref{tab:test_plan}.
+  \item [] Usability testing is done using the UMUX method to test whether the system can be understood and used by users. This method has several advantages, one of which is that this method is quite concise because it only consists of 4 questions, but still shows a high level of reliability and good validity \cite{b26}. Before conducting the test, an application test plan is first prepared which can be seen in Table~\ref{tab:test_plan}.
 
         \begin{table}[htbp]
           \caption{Test Plan Application}
@@ -145,20 +222,21 @@ To ensure that the system runs according to user desires, two testing processes 
 
         Respondents will run the application according to the test plan that has been made. Respondents for this test consisted of 22 students of basic statistics courses. After that, respondents were asked to fill out a questionnaire form with questions as shown in Table~\ref{tab:umux_question_list}.
 
-        \begin{table}[htbp]
-          \caption{UMUX QUESTION LIST \cite{b12}}
+        \begin{table}[H]
+          \caption{UMUX QUESTION LIST \cite{b27}}
           \label{tab:umux_question_list}
-          \resizebox{\columnwidth}{!}{%
-            \begin{tabular}{|c|l|c|}
-              \hline
-              \textbf{No.} & \textbf{Question}                                      & \textbf{Score} \\ \hline
-              1            & This application suits my needs.                       & 1 - 7          \\ \hline
-              2            & I had a bad experience using this application.         & 1 - 7          \\ \hline
-              3            & This application is easy to use.                       & 1 - 7          \\ \hline
-              4            & I have to spend a lot of time to use this application. & 1 - 7          \\ \hline
-            \end{tabular}%
-          }
+          \centering
+          \renewcommand{\arraystretch}{2.2} % tinggi baris
+          \begin{tabular}{|c|p{6cm}|c|} % atur lebar kolom pertanyaan
+            \hline
+            \textbf{No.} & \textbf{Question}                                      & \textbf{Score} \\ \hline
+            1            & This application suits my needs.                       & 1 - 7          \\ \hline
+            2            & I had a bad experience using this application.         & 1 - 7          \\ \hline
+            3            & This application is easy to use.                       & 1 - 7          \\ \hline
+            4            & I have to spend a lot of time to use this application. & 1 - 7          \\ \hline
+          \end{tabular}
         \end{table}
+
 \end{enumerate}
 
 
@@ -169,7 +247,7 @@ After testing using the UMUX method, the test result data is processed following
   \item The scores of each item filled in by the user are added up first, then divided by 24 (the maximum score value).
   \item The result of the division is multiplied by 100.
   \item Furthermore, the value is averaged for all users.
-  \item The UMUX score obtained is assessed on a scale of 0-100, according to general assessment standards\cite{b13}.
+  \item The UMUX score obtained is assessed on a scale of 0-100, according to general assessment standards\cite{b28}.
 \end{itemize}
 
 The results of the tests carried out using the UMUX method can be seen in Table~\ref{tab:umux_results}.
@@ -182,28 +260,28 @@ The results of the tests carried out using the UMUX method can be seen in Table~
       \hline
       \multirow{2}{*}{\textbf{Respondent}}   & \multicolumn{4}{c|}{\textbf{Question Number}} & \multirow{2}{*}{\textbf{Final Score}}                                   \\ \cline{2-5}
                                              & \textbf{1}                                    & \textbf{2}                            & \textbf{3} & \textbf{4} & ~     \\ \hline
-      Chemistry Student 2                    & 4                                             & 1                                     & 7          & 1          & 87,5  \\ \hline
-      Chemistry Student 3                    & 4                                             & 1                                     & 6          & 2          & 79,17 \\ \hline
-      Chemistry Student 4                    & 7                                             & 1                                     & 7          & 3          & 91,67 \\ \hline
-      Chemistry Student 5                    & 6                                             & 2                                     & 5          & 3          & 75    \\ \hline
-      Chemistry Student 6                    & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
-      Informatics Student 1                  & 7                                             & 2                                     & 7          & 1          & 95,83 \\ \hline
-      Informatics Student 2                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
-      Informatics Student 3                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
-      Informatics Student 4                  & 7                                             & 2                                     & 6          & 2          & 87,5  \\ \hline
-      Informatics Student 5                  & 7                                             & 1                                     & 7          & 2          & 95,83 \\ \hline
-      Informatics Student 6                  & 7                                             & 2                                     & 5          & 2          & 83,33 \\ \hline
-      Informatics Student 7                  & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
-      Biology Student 1                      & 5                                             & 1                                     & 7          & 5          & 75    \\ \hline
-      Biology Student 2                      & 7                                             & 1                                     & 7          & 4          & 87,5  \\ \hline
-      Biology Student 3                      & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
-      Biology Student 4                      & 6                                             & 1                                     & 7          & 1          & 95,83 \\ \hline
-      Biology Student 5                      & 5                                             & 1                                     & 7          & 1          & 91,67 \\ \hline
-      Biology Student 6                      & 4                                             & 1                                     & 4          & 2          & 70,83 \\ \hline
-      Biology Student 7                      & 6                                             & 2                                     & 6          & 6          & 66,67 \\ \hline
-      Biology Student 8                      & 7                                             & 1                                     & 7          & 5          & 83,33 \\ \hline
-      Biology Student 9                      & 6                                             & 1                                     & 6          & 4          & 75    \\ \hline
-
+      Student 1                              & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 2                              & 4                                             & 1                                     & 7          & 1          & 87,5  \\ \hline
+      Student 3                              & 4                                             & 1                                     & 6          & 2          & 79,17 \\ \hline
+      Student 4                              & 7                                             & 1                                     & 7          & 3          & 91,67 \\ \hline
+      Student 5                              & 6                                             & 2                                     & 5          & 3          & 75    \\ \hline
+      Student 6                              & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 7                              & 7                                             & 2                                     & 7          & 1          & 95,83 \\ \hline
+      Student 8                              & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 9                              & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 10                             & 7                                             & 2                                     & 6          & 2          & 87,5  \\ \hline
+      Student 11                             & 7                                             & 1                                     & 7          & 2          & 95,83 \\ \hline
+      Student 12                             & 7                                             & 2                                     & 5          & 2          & 83,33 \\ \hline
+      Student 13                             & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 14                             & 5                                             & 1                                     & 7          & 5          & 75    \\ \hline
+      Student 15                             & 7                                             & 1                                     & 7          & 4          & 87,5  \\ \hline
+      Student 16                             & 7                                             & 1                                     & 7          & 1          & 100   \\ \hline
+      Student 17                             & 6                                             & 1                                     & 7          & 1          & 95,83 \\ \hline
+      Student 18                             & 5                                             & 1                                     & 7          & 1          & 91,67 \\ \hline
+      Student 19                             & 4                                             & 1                                     & 4          & 2          & 70,83 \\ \hline
+      Student 20                             & 6                                             & 2                                     & 6          & 6          & 66,67 \\ \hline
+      Student 21                             & 7                                             & 1                                     & 7          & 5          & 83,33 \\ \hline
+      Student 22                             & 6                                             & 1                                     & 6          & 4          & 75    \\ \hline
       \multicolumn{5}{|c|}{\textbf{Average}} & \textbf{88.26}                                                                                                          \\ \hline
     \end{tabular}%
   }
@@ -225,31 +303,61 @@ In conclusion, RWikiStat application has proven to be user-friendly and has the 
 
 \begin{thebibliography}{00}
 
-  \bibitem{b1}Ririen, Deci, and Dewi Hartika. "Identifikasi Kesulitan Belajar Mahasiswa pada Mata Kuliah Statistika Selama Masa Pandemi Covid-I9." Jurnal Ilmiah Universitas Batanghari Jambi 21.1 (2021): 148-155.
+  \bibitem{b1} Ririen, Deci, and Dewi Hartika. "Identifikasi Kesulitan Belajar Mahasiswa pada Mata Kuliah Statistika Selama Masa Pandemi Covid-19." \textit{Jurnal Ilmiah Universitas Batanghari Jambi} 21.1 (2021): 148-155.
 
-  \bibitem{b2}Wild, Chris J., and Maxine Pfannkuch. "Statistical thinking in empirical enquiry." International statistical review 67.3 (1999): 223-248.
+  \bibitem{b2} Wild, Chris J., and Maxine Pfannkuch. "Statistical thinking in empirical enquiry." \textit{International Statistical Review} 67.3 (1999): 223-248.
 
-  \bibitem{b3}Uchima-Marin, Cristian, et al. "Integration of Technological Tools in Teaching Statistics: Innovations in Educational Technology for Sustainable Education." Sustainability 16.19 (2024): 8344.
+  \bibitem{b3} Uchima-Marin, Cristian, et al. "Integration of Technological Tools in Teaching Statistics: Innovations in Educational Technology for Sustainable Education." \textit{Sustainability} 16.19 (2024): 8344.
 
-  \bibitem{b4}Subianto, Muhammad, and Hizir Sofyan. "Interactive statistics learning with RWikiStat." 2010 International Conference on Networking and Information Technology. IEEE, 2010.
+  \bibitem{b4} Wilson, Stephanie Gray. "The flipped class: A method to address the challenges of an undergraduate statistics course." \textit{Teaching of Psychology} 40.3 (2013): 193-199.
 
-  \bibitem{b5}Sofyan, Hizir, Edi Muttaqin, and Muhammad Subianto. "RWikiStat 2.0: a Web Based Statistical Learning System (Session 1B (IASC-ARS))." Proceedings of the symposium of Japanese Society of Computational Statistics 26. Japanese Society of Computational Statistics, 2012.
+  \bibitem{b5} Talan, Tarik. "The effect of mobile learning on learning performance: A meta-analysis study." \textit{Kuram Ve Uygulamada Egitim Bilimleri} 20.1 (2020): 79-103.
 
-  \bibitem{b6}Sofyan, Hizir, et al. "Analisis Kepuasan Pengguna Aplikasi RWikiStat 3.0." Journal of Data Analysis 2.2 (2020): 80-87.
+  \bibitem{b6} Subianto, Muhammad, and Hizir Sofyan. "Interactive statistics learning with RWikiStat." \textit{2010 International Conference on Networking and Information Technology}. IEEE, 2010.
 
-  \bibitem{b7}Anggraini, Lili. "The Impact of New Media in the Information Society Era." Journal of Information Systems and Management (JISMA) 2.2 (2023): 29-33.
+  \bibitem{b7} Sofyan, Hizir, Edi Muttaqin, and Muhammad Subianto. "RWikiStat 2.0: A Web Based Statistical Learning System (Session 1B (IASC-ARS))." \textit{Proceedings of the Symposium of Japanese Society of Computational Statistics} 26. Japanese Society of Computational Statistics, 2012.
 
-  \bibitem{b8}Paulsen, June Blydt, and Helle Låhne Smedsrud. The" Good Enough" Tsunami: The Disruptive Potential of Low-code and No-code: A multiple case-study on scope, trends, and implications. MS thesis. 2023.
+  \bibitem{b8} Sofyan, Hizir, et al. "Analisis Kepuasan Pengguna Aplikasi RWikiStat 3.0." \textit{Journal of Data Analysis} 2.2 (2020): 80-87.
 
-  \bibitem{b9}Svedas, Egidijus. "Building an application using Next. js." (2024).
+  \bibitem{b9} Sarkar, Subrata, Sanjay Mohapatra, and Jayaraman Sundarakrishnan. "Assessing impact of technology based digital equalizer programme on improving student learning outcomes." \textit{Education and Information Technologies} 22.1 (2017): 195-213.
 
-  \bibitem{b10}Nitschke, Marlies, et al. "Refinement and usability analysis of an eHealth app for ankylosing spondylitis as a complementary treatment to physical therapy: development and usability study." JMIR Formative Research 7 (2023): e47426.
+  \bibitem{b10} Arain, Aijaz Ahmed, et al. "An analysis of the influence of a mobile learning application on the learning outcomes of higher education students." \textit{Universal Access in the Information Society} 17 (2018): 325-334.
 
-  \bibitem{b11}Azkarin, Varinia, Rangga Gelar Guntara, and Oding Herdiana. "Development of a REST API for Human Resource Information System for Employee Referral Management Domain Using the Express JS Framework and Node. js." Journal of Scientific Research, Education, and Technology (JSRET) 2.3 (2023): 1085-1094.
+  \bibitem{b11} López-Pérez, María V., et al. "The influence of the use of technology on student outcomes in a blended learning context." \textit{Educational Technology Research and Development} 61 (2013): 625-638.
 
-  \bibitem{b12}Lewis, James R., and Jeff Sauro. "Usability and user experience: Design and evaluation." Handbook of human factors and ergonomics (2021): 972-1015.
+  \bibitem{b12} Ansong-Gyimah, Kwame. "Students’ Perceptions and Continuous Intention to Use E-Learning Systems: The Case of Google Classroom." \textit{International Journal of Emerging Technologies in Learning (iJET)} 15.11 (2020): 236-244.
 
-  \bibitem{b13}Finstad, Kraig. "The usability metric for user experience." Interacting with computers 22.5 (2010): 323-327.
+  \bibitem{b13} Zhang, Qi, and Zhonggen Yu. "A literature review on the influence of Kahoot! on learning outcomes, interaction, and collaboration." \textit{Education and Information Technologies} 26.4 (2021): 4507-4535.
+
+  \bibitem{b14} Quiñones, Daniela, et al. "Innovating Statistics Education: The Design of a Novel App Using Design Thinking." \textit{Applied Sciences} 14.18 (2024): 8515.
+
+  \bibitem{b15} Uchima-Marin, Cristian, et al. "Integration of Technological Tools in Teaching Statistics: Innovations in Educational Technology for Sustainable Education." \textit{Sustainability} 16.19 (2024): 8344.
+
+  \bibitem{b16} Blackburn, Greg. "Effectiveness of eLearning in statistics: Pictures and stories." \textit{E-Learning and Digital Media} 12.5-6 (2015): 459-480.
+
+  \bibitem{b17} González, José A., et al. "Assessing Shiny apps through student feedback: Recommendations from a qualitative study." \textit{Computer Applications in Engineering Education} 26.5 (2018): 1813-1824.
+
+  \bibitem{b18} Thai, Hong-Danh, Yeong-Seok Seo, and Jun-Ho Huh. "Enhanced Efficiency in SMEs Attendance Monitoring: Low Cost Artificial Intelligence Facial Recognition Mobile Application." \textit{IEEE Access} (2024).
+
+  \bibitem{b19} Balbontin, Pinky A., et al. "Electronic document archiving system." Diss. 2009.
+
+  \bibitem{b20} Alguidano Jr, Ramon A., et al. "Scientia et Fides."
+
+  \bibitem{b21} Svedas, Egidijus. "Building an application using Next.js." (2024).
+
+  \bibitem{b22} Nitschke, Marlies, et al. "Refinement and usability analysis of an eHealth app for ankylosing spondylitis as a complementary treatment to physical therapy: Development and usability study." \textit{JMIR Formative Research} 7 (2023): e47426.
+
+  \bibitem{b23} Azkarin, Varinia, Rangga Gelar Guntara, and Oding Herdiana. "Development of a REST API for Human Resource Information System for Employee Referral Management Domain Using the Express JS Framework and Node.js." \textit{Journal of Scientific Research, Education, and Technology (JSRET)} 2.3 (2023): 1085-1094.
+
+  \bibitem{b24} Kumar, Manish, Santosh Kumar Singh, and R. K. Dwivedi. "A comparative study of black box testing and white box testing techniques." \textit{International Journal of Advance Research in Computer Science and Management Studies} 3.10 (2015).
+
+  \bibitem{b25} Khan, Mohd Ehmer, and Farmeena Khan. "A comparative study of white box, black box and grey box testing techniques." \textit{International Journal of Advanced Computer Science and Applications} 3.6 (2012).
+
+  \bibitem{b26} Lewis, James R. "Measuring perceived usability: The CSUQ, SUS, and UMUX." \textit{International Journal of Human–Computer Interaction} 34.12 (2018): 1148-1156.
+
+  \bibitem{b27} Lewis, James R., and Jeff Sauro. "Usability and user experience: Design and evaluation." \textit{Handbook of Human Factors and Ergonomics} (2021): 972-1015.
+
+  \bibitem{b28} Finstad, Kraig. "The usability metric for user experience." \textit{Interacting with Computers} 22.5 (2010): 323-327.
 
 \end{thebibliography}
 
